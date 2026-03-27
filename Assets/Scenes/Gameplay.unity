@@ -302,7 +302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
   target: {fileID: 1135680051}
   offset: {x: 0, y: 0}
-  smoothSpeed: 0.125
+  smoothSpeed: 1
 --- !u!1 &609956460
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,7 +315,7 @@ GameObject:
   - component: {fileID: 609956462}
   - component: {fileID: 609956461}
   - component: {fileID: 609956464}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Parede (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -450,7 +450,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609956460}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -836,7 +836,7 @@ GameObject:
   - component: {fileID: 1333507460}
   - component: {fileID: 1333507459}
   - component: {fileID: 1333507462}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Parede (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -971,7 +971,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1333507458}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1002,7 +1002,7 @@ GameObject:
   - component: {fileID: 1660595713}
   - component: {fileID: 1660595712}
   - component: {fileID: 1660595715}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Parede
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1137,7 +1137,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660595711}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1168,7 +1168,7 @@ GameObject:
   - component: {fileID: 2068348283}
   - component: {fileID: 2068348282}
   - component: {fileID: 2068348285}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Parede (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1303,7 +1303,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2068348281}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
