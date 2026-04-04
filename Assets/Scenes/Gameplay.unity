@@ -119,37 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &158417652
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 158417653}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &158417653
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 158417652}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,6 +283,7 @@ GameObject:
   - component: {fileID: 609956463}
   - component: {fileID: 609956462}
   - component: {fileID: 609956461}
+  - component: {fileID: 609956465}
   - component: {fileID: 609956464}
   m_Layer: 3
   m_Name: Parede (3)
@@ -450,7 +420,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609956460}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -469,6 +439,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &609956465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609956460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fbf2f63ab9a7084ca69912268191ce2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parede
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  destroyProjectiles: 1
+  hitEffectPrefab: {fileID: 0}
+  hitSound: {fileID: 0}
+  effectDuration: 1
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -879,7 +868,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135680049}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -987,6 +976,7 @@ GameObject:
   - component: {fileID: 1333507461}
   - component: {fileID: 1333507460}
   - component: {fileID: 1333507459}
+  - component: {fileID: 1333507463}
   - component: {fileID: 1333507462}
   m_Layer: 3
   m_Name: Parede (2)
@@ -1123,7 +1113,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1333507458}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1142,6 +1132,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1333507463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1333507458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fbf2f63ab9a7084ca69912268191ce2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parede
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  destroyProjectiles: 1
+  hitEffectPrefab: {fileID: 0}
+  hitSound: {fileID: 0}
+  effectDuration: 1
 --- !u!1 &1660595711
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,6 +1162,7 @@ GameObject:
   - component: {fileID: 1660595714}
   - component: {fileID: 1660595713}
   - component: {fileID: 1660595712}
+  - component: {fileID: 1660595716}
   - component: {fileID: 1660595715}
   m_Layer: 3
   m_Name: Parede
@@ -1289,7 +1299,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660595711}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1308,6 +1318,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1660595716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660595711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fbf2f63ab9a7084ca69912268191ce2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parede
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  destroyProjectiles: 1
+  hitEffectPrefab: {fileID: 0}
+  hitSound: {fileID: 0}
+  effectDuration: 1
 --- !u!1 &2068348281
 GameObject:
   m_ObjectHideFlags: 0
@@ -1319,6 +1348,7 @@ GameObject:
   - component: {fileID: 2068348284}
   - component: {fileID: 2068348283}
   - component: {fileID: 2068348282}
+  - component: {fileID: 2068348286}
   - component: {fileID: 2068348285}
   m_Layer: 3
   m_Name: Parede (1)
@@ -1455,7 +1485,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2068348281}
-  m_BodyType: 1
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -1474,6 +1504,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2068348286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068348281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fbf2f63ab9a7084ca69912268191ce2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Parede
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  destroyProjectiles: 1
+  hitEffectPrefab: {fileID: 0}
+  hitSound: {fileID: 0}
+  effectDuration: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1481,7 +1530,6 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 1135680051}
-  - {fileID: 158417653}
   - {fileID: 933972512}
   - {fileID: 1660595714}
   - {fileID: 2068348284}
