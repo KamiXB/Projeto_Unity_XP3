@@ -73,6 +73,8 @@ public class Shooter : MonoBehaviour
     {
         if (projectilePrefab == null) return;
 
+        var ownerCollider = GetComponent<Collider2D>();
+
         float angleStep = 360f / Mathf.Max(1, projectilesPerShot);
         float angle = 0f;
 
@@ -87,7 +89,7 @@ public class Shooter : MonoBehaviour
             var projectile = proj.GetComponent<Projectile>();
             if (projectile != null)
             {
-                projectile.Initialize(dir, projectileSpeed, projectileLifetime);
+                projectile.Initialize(dir, projectileSpeed, projectileLifetime, ownerCollider);
             }
             else
             {

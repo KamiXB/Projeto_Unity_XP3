@@ -111,7 +111,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -151,7 +151,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -169,3 +169,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d557c1ef1378e33408ce50485a16ecf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
+  pulsePrefab: {fileID: 660980674306500044, guid: e8500fced5fe86c4ebffe5769c914206, type: 3}
+  pulseInterval: 0.35
+  pulseParentToProjectile: 1
+  attachPersistentPulse: 1
+  pulseInitialRadius: 0.25
+  pulseMaxRadius: 8
+  pulseDuration: 3
+  pulseColor: {r: 1, g: 1, b: 1, a: 0.9}
+  pulseIsPulse: 1
