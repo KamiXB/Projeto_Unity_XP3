@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: fddbf7d094659c94ea592de840f70717
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3600521013193883868
+    second: top_down_Nagazaki-idle_esquerda_sheet_0
+  - first:
+      213: -2345283399796349741
+    second: top_down_Nagazaki-idle_esquerda_sheet_1
+  - first:
+      213: -4073394280779734460
+    second: top_down_Nagazaki-idle_esquerda_sheet_2
+  - first:
+      213: -1327059347615405357
+    second: top_down_Nagazaki-idle_esquerda_sheet_3
+  - first:
+      213: -4142598710590932195
+    second: top_down_Nagazaki-idle_esquerda_sheet_4
+  - first:
+      213: 4991004561582152795
+    second: top_down_Nagazaki-idle_esquerda_sheet_5
+  - first:
+      213: 5202568813359920534
+    second: top_down_Nagazaki-idle_esquerda_sheet_6
+  - first:
+      213: 6834188457826433630
+    second: top_down_Nagazaki-idle_esquerda_sheet_7
+  - first:
+      213: -6450392260762287921
+    second: top_down_Nagazaki-idle_esquerda_sheet_8
+  - first:
+      213: 3570332181933515464
+    second: top_down_Nagazaki-idle_esquerda_sheet_9
+  - first:
+      213: 7637069034842816427
+    second: top_down_Nagazaki-idle_esquerda_sheet_10
+  - first:
+      213: -1868675306643550809
+    second: top_down_Nagazaki-idle_esquerda_sheet_11
+  - first:
+      213: 4397459587494063263
+    second: top_down_Nagazaki-idle_esquerda_sheet_12
+  - first:
+      213: 1839861780693748860
+    second: top_down_Nagazaki-idle_esquerda_sheet_13
+  - first:
+      213: -5849354943233721661
+    second: top_down_Nagazaki-idle_esquerda_sheet_14
+  - first:
+      213: 5191266704017443281
+    second: top_down_Nagazaki-idle_esquerda_sheet_15
+  - first:
+      213: 6508760066933908601
+    second: top_down_Nagazaki-idle_esquerda_sheet_16
+  - first:
+      213: -6312395741702478645
+    second: top_down_Nagazaki-idle_esquerda_sheet_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd040cdf8ce97f130800000000000000
+      internalID: 3600521013193883868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4a4897c21e37fd0800000000000000
+      internalID: -2345283399796349741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 19
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4422400cb756877c0800000000000000
+      internalID: -4073394280779734460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 19
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3daa58ded86559de0800000000000000
+      internalID: -1327059347615405357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 19
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b7c30db688286c0800000000000000
+      internalID: -4142598710590932195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 0
+        width: 19
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c557d843c934540800000000000000
+      internalID: 4991004561582152795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 19
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695f7d775cc333840800000000000000
+      internalID: 5202568813359920534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 0
+        width: 19
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ab1dc713ae7de50800000000000000
+      internalID: 6834188457826433630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 0
+        width: 19
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0c55b1a6a9b76a0800000000000000
+      internalID: -6450392260762287921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 19
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2ea4af33e5c8130800000000000000
+      internalID: 3570332181933515464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 0
+        width: 19
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baff0f203d15cf960800000000000000
+      internalID: 7637069034842816427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 0
+        width: 19
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad87f295b12116e0800000000000000
+      internalID: -1868675306643550809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 0
+        width: 19
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c28b2323ae60d30800000000000000
+      internalID: 4397459587494063263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 0
+        width: 19
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c8112aa80888910800000000000000
+      internalID: 1839861780693748860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 0
+        width: 19
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3caf06b9baae2dea0800000000000000
+      internalID: -5849354943233721661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 0
+        width: 19
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9c54310951b0840800000000000000
+      internalID: 5191266704017443281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 0
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974e7d5cbc2c35a50800000000000000
+      internalID: 6508760066933908601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_Nagazaki-idle_esquerda_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 0
+        width: 19
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4a226748dd568a0800000000000000
+      internalID: -6312395741702478645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      top_down_Nagazaki-idle_esquerda_sheet_0: 3600521013193883868
+      top_down_Nagazaki-idle_esquerda_sheet_1: -2345283399796349741
+      top_down_Nagazaki-idle_esquerda_sheet_10: 7637069034842816427
+      top_down_Nagazaki-idle_esquerda_sheet_11: -1868675306643550809
+      top_down_Nagazaki-idle_esquerda_sheet_12: 4397459587494063263
+      top_down_Nagazaki-idle_esquerda_sheet_13: 1839861780693748860
+      top_down_Nagazaki-idle_esquerda_sheet_14: -5849354943233721661
+      top_down_Nagazaki-idle_esquerda_sheet_15: 5191266704017443281
+      top_down_Nagazaki-idle_esquerda_sheet_16: 6508760066933908601
+      top_down_Nagazaki-idle_esquerda_sheet_17: -6312395741702478645
+      top_down_Nagazaki-idle_esquerda_sheet_2: -4073394280779734460
+      top_down_Nagazaki-idle_esquerda_sheet_3: -1327059347615405357
+      top_down_Nagazaki-idle_esquerda_sheet_4: -4142598710590932195
+      top_down_Nagazaki-idle_esquerda_sheet_5: 4991004561582152795
+      top_down_Nagazaki-idle_esquerda_sheet_6: 5202568813359920534
+      top_down_Nagazaki-idle_esquerda_sheet_7: 6834188457826433630
+      top_down_Nagazaki-idle_esquerda_sheet_8: -6450392260762287921
+      top_down_Nagazaki-idle_esquerda_sheet_9: 3570332181933515464
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -105,9 +105,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 816194f22cb380d48b9412f3a576efe3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LightPulse
-  initialRadius: 0.25
-  maxRadius: 3
-  duration: 0.5
+  initialRadius: 3
+  maxRadius: 30
+  duration: 0.1
   pulse: 1
   color: {r: 1, g: 1, b: 1, a: 0.9}
 --- !u!114 &-9121138604748400525
