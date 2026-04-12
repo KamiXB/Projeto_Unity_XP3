@@ -174,7 +174,7 @@ MonoBehaviour:
   pulseParentToProjectile: 1
   attachPersistentPulse: 1
   pulseInitialRadius: 0.25
-  pulseMaxRadius: 8
-  pulseDuration: 3
+  pulseMaxRadius: 15
+  pulseDuration: 2
   pulseColor: {r: 1, g: 1, b: 1, a: 0.9}
   pulseIsPulse: 1
