@@ -1,3 +1,4 @@
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
@@ -11,6 +12,16 @@ public class Moviment : MonoBehaviour
     private Vector2 movement;
     private Vector2 lastMove;
     private Animator animator;
+
+    private bool isFacingFront = true;  
+    private bool isFacingBack = false;
+    public bool IsFacingFront => isFacingFront;
+    public bool IsFacingBack => isFacingBack;
+
+    private bool isFacingLeft = false;
+    private bool isFacingRight = false;
+    public bool IsFacingLeft => isFacingLeft;
+    public bool IsFacingRight => isFacingRight;
 
     void Awake()
     {
@@ -62,12 +73,39 @@ public class Moviment : MonoBehaviour
             lastMove = movement;
         }
 
+        if (input.y < 0f)
+        {
+            isFacingFront = true;
+            isFacingBack = false;
+        }
+        else if (input.y > 0f)
+        {
+            isFacingFront = false;
+            isFacingBack = true;
+        }
+
+        if (input.x < 0f)
+        {
+            isFacingLeft = true;
+            isFacingRight = false;
+        }
+        else if (input.x > 0f)
+        {
+            isFacingLeft = false;
+            isFacingRight = true;
+        }
+
+
         // 🎬 ANIMAÇÃO
         if (animator != null)
         {
             animator.SetFloat("moveX", lastMove.x);
             animator.SetFloat("moveY", lastMove.y);
             animator.SetFloat("speed", movement.sqrMagnitude);
+            animator.SetBool("isFacingFront", isFacingFront);
+            animator.SetBool("isFacingBack", isFacingBack);
+            animator.SetBool("isFacingLeft", isFacingLeft);
+            animator.SetBool("isFacingRight", isFacingRight);
         }
     }
 #else
