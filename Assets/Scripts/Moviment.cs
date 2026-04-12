@@ -13,13 +13,13 @@ public class Moviment : MonoBehaviour
     private Vector2 lastMove;
     private Animator animator;
 
-    private bool isFacingFront = true;  
+    // Orientação exclusiva
+    private bool isFacingFront = true;
     private bool isFacingBack = false;
-    public bool IsFacingFront => isFacingFront;
-    public bool IsFacingBack => isFacingBack;
-
     private bool isFacingLeft = false;
     private bool isFacingRight = false;
+    public bool IsFacingFront => isFacingFront;
+    public bool IsFacingBack => isFacingBack;
     public bool IsFacingLeft => isFacingLeft;
     public bool IsFacingRight => isFacingRight;
 
@@ -27,6 +27,8 @@ public class Moviment : MonoBehaviour
     {
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        // Inicializa parâmetros no Animator (opcional)
+        SyncAnimatorFacing();
     }
 
 #if ENABLE_INPUT_SYSTEM
@@ -53,7 +55,7 @@ public class Moviment : MonoBehaviour
             input += new Vector2(right - left, up - down);
         }
 
-        // 🎯 TRAVAR EM 4 DIREÇÕES
+        // TRAVAR EM 4 DIREÇÕES
         if (Mathf.Abs(input.x) > Mathf.Abs(input.y))
         {
             movement = new Vector2(Mathf.Sign(input.x), 0);
@@ -67,45 +69,21 @@ public class Moviment : MonoBehaviour
             movement = Vector2.zero;
         }
 
-        // Guarda última direção (pro idle)
+        // Guarda última direção (para idle)
         if (movement != Vector2.zero)
         {
             lastMove = movement;
+            // Atualiza facing de forma exclusiva com base no movimento efetivo
+            SetFacingFromDirection(lastMove);
         }
 
-        if (input.y < 0f)
-        {
-            isFacingFront = true;
-            isFacingBack = false;
-        }
-        else if (input.y > 0f)
-        {
-            isFacingFront = false;
-            isFacingBack = true;
-        }
-
-        if (input.x < 0f)
-        {
-            isFacingLeft = true;
-            isFacingRight = false;
-        }
-        else if (input.x > 0f)
-        {
-            isFacingLeft = false;
-            isFacingRight = true;
-        }
-
-
-        // 🎬 ANIMAÇÃO
+        // ANIMAÇÃO
         if (animator != null)
         {
             animator.SetFloat("moveX", lastMove.x);
             animator.SetFloat("moveY", lastMove.y);
             animator.SetFloat("speed", movement.sqrMagnitude);
-            animator.SetBool("isFacingFront", isFacingFront);
-            animator.SetBool("isFacingBack", isFacingBack);
-            animator.SetBool("isFacingLeft", isFacingLeft);
-            animator.SetBool("isFacingRight", isFacingRight);
+            // As booleans de facing já são sincronizadas em SetFacingFromDirection
         }
     }
 #else
@@ -127,5 +105,31 @@ public class Moviment : MonoBehaviour
         {
             transform.Translate((Vector3)delta, Space.World);
         }
+    }
+
+    private void SetFacingFromDirection(Vector2 dir)
+    {
+        // Torna exclusiva: zera todas e seta apenas a correta
+        isFacingFront = isFacingBack = isFacingLeft = isFacingRight = false;
+
+        if (dir.y < 0f)
+            isFacingFront = true;
+        else if (dir.y > 0f)
+            isFacingBack = true;
+        else if (dir.x < 0f)
+            isFacingLeft = true;
+        else if (dir.x > 0f)
+            isFacingRight = true;
+
+        SyncAnimatorFacing();
+    }
+
+    private void SyncAnimatorFacing()
+    {
+        if (animator == null) return;
+        animator.SetBool("isFacingFront", isFacingFront);
+        animator.SetBool("isFacingBack", isFacingBack);
+        animator.SetBool("isFacingLeft", isFacingLeft);
+        animator.SetBool("isFacingRight", isFacingRight);
     }
 }
