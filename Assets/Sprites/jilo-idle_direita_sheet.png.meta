@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: d3c6d620ae44d804c803bc40a8ac7a48
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6641982686884787523
+    second: jilo-idle_direita_sheet_0
+  - first:
+      213: -2676152205027460747
+    second: jilo-idle_direita_sheet_1
+  - first:
+      213: 2687771651312948129
+    second: jilo-idle_direita_sheet_2
+  - first:
+      213: 7689005444673822009
+    second: jilo-idle_direita_sheet_3
+  - first:
+      213: -7458288965824641405
+    second: jilo-idle_direita_sheet_4
+  - first:
+      213: -3736352781085645070
+    second: jilo-idle_direita_sheet_5
+  - first:
+      213: 4708842732429785882
+    second: jilo-idle_direita_sheet_6
+  - first:
+      213: 7299231018895633202
+    second: jilo-idle_direita_sheet_7
+  - first:
+      213: 8569927612771934922
+    second: jilo-idle_direita_sheet_8
+  - first:
+      213: 4311379662208491594
+    second: jilo-idle_direita_sheet_9
+  - first:
+      213: 6013823728965672991
+    second: jilo-idle_direita_sheet_10
+  - first:
+      213: 5943961152920038322
+    second: jilo-idle_direita_sheet_11
+  - first:
+      213: -2831919628944910922
+    second: jilo-idle_direita_sheet_12
+  - first:
+      213: 6631308345649051768
+    second: jilo-idle_direita_sheet_13
+  - first:
+      213: 6014281048506781358
+    second: jilo-idle_direita_sheet_14
+  - first:
+      213: 781395525810777514
+    second: jilo-idle_direita_sheet_15
+  - first:
+      213: 4489517700396309664
+    second: jilo-idle_direita_sheet_16
+  - first:
+      213: 2127555370249857759
+    second: jilo-idle_direita_sheet_17
+  - first:
+      213: -3366141534978104217
+    second: jilo-idle_direita_sheet_18
+  - first:
+      213: -6712440237853100735
+    second: jilo-idle_direita_sheet_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 6
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345ff0020101d2c50800000000000000
+      internalID: 6641982686884787523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 6
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579b5769fb56cdad0800000000000000
+      internalID: -2676152205027460747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 6
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a39fd19312ec4520800000000000000
+      internalID: 2687771651312948129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 6
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93dd3ddb6b5d4ba60800000000000000
+      internalID: 7689005444673822009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 6
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3868ec783b5de7890800000000000000
+      internalID: -7458288965824641405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 7
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f6e8df01fec52cc0800000000000000
+      internalID: -3736352781085645070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 7
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b38a1448b295140800000000000000
+      internalID: 4708842732429785882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 7
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b69ce40f31c4560800000000000000
+      internalID: 7299231018895633202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 7
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2251622cf7ee670800000000000000
+      internalID: 8569927612771934922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 7
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40e7c9c5f815db30800000000000000
+      internalID: 4311379662208491594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 6
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1060d2a1d4657350800000000000000
+      internalID: 6013823728965672991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 6
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb25861d213d7250800000000000000
+      internalID: 5943961152920038322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 6
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b558440a1003b8d0800000000000000
+      internalID: -2831919628944910922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 6
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878be726ec3270c50800000000000000
+      internalID: 6631308345649051768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 6
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae4c93afb4077350800000000000000
+      internalID: 6014281048506781358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 7
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aade709371318da00800000000000000
+      internalID: 781395525810777514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 7
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac53f0ef88fd4e30800000000000000
+      internalID: 4489517700396309664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 7
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdaa7b34658968d10800000000000000
+      internalID: 2127555370249857759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 7
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76421f7cb101941d0800000000000000
+      internalID: -3366141534978104217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jilo-idle_direita_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 7
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1453abeea2f98d2a0800000000000000
+      internalID: -6712440237853100735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      jilo-idle_direita_sheet_0: 6641982686884787523
+      jilo-idle_direita_sheet_1: -2676152205027460747
+      jilo-idle_direita_sheet_10: 6013823728965672991
+      jilo-idle_direita_sheet_11: 5943961152920038322
+      jilo-idle_direita_sheet_12: -2831919628944910922
+      jilo-idle_direita_sheet_13: 6631308345649051768
+      jilo-idle_direita_sheet_14: 6014281048506781358
+      jilo-idle_direita_sheet_15: 781395525810777514
+      jilo-idle_direita_sheet_16: 4489517700396309664
+      jilo-idle_direita_sheet_17: 2127555370249857759
+      jilo-idle_direita_sheet_18: -3366141534978104217
+      jilo-idle_direita_sheet_19: -6712440237853100735
+      jilo-idle_direita_sheet_2: 2687771651312948129
+      jilo-idle_direita_sheet_3: 7689005444673822009
+      jilo-idle_direita_sheet_4: -7458288965824641405
+      jilo-idle_direita_sheet_5: -3736352781085645070
+      jilo-idle_direita_sheet_6: 4708842732429785882
+      jilo-idle_direita_sheet_7: 7299231018895633202
+      jilo-idle_direita_sheet_8: 8569927612771934922
+      jilo-idle_direita_sheet_9: 4311379662208491594
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
