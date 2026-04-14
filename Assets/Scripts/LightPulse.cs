@@ -2,24 +2,21 @@ using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(Collider2D))]
 public class LightPulse : MonoBehaviour
 {
-    [Tooltip("Initial radius (local scale multiplier)")]
     public float initialRadius = 0.25f;
-    [Tooltip("Maximum radius (local scale multiplier)")]
     public float maxRadius = 3f;
-    [Tooltip("Duration of pulse in seconds")]
     public float duration = 0.5f;
-    [Tooltip("If true the light pulses (expands and fades). If false it stays constant at maxRadius")]
     public bool pulse = true;
-    [Tooltip("Color of the light (alpha controls intensity)")]
-    public Color color = new Color(1f,1f,1f,0.9f);
+    public Color color = new Color(1f, 1f, 1f, 0.9f);
 
     private SpriteRenderer sr;
 
     void Awake()
     {
         sr = GetComponent<SpriteRenderer>();
+
         if (sr == null)
         {
             Debug.LogWarning("LightPulse requires a SpriteRenderer.");
@@ -27,7 +24,6 @@ public class LightPulse : MonoBehaviour
             return;
         }
 
-        // Ensure sprite is centered and uses default material
         sr.color = color;
         transform.localRotation = Quaternion.identity;
 
@@ -39,13 +35,14 @@ public class LightPulse : MonoBehaviour
         else
         {
             transform.localScale = Vector3.one * maxRadius;
-            sr.color = color; // full color
+            sr.color = color;
         }
     }
 
     private IEnumerator PulseRoutine()
     {
         float t = 0f;
+
         while (t < duration)
         {
             float k = t / duration;
@@ -60,7 +57,27 @@ public class LightPulse : MonoBehaviour
             yield return null;
         }
 
-        // After pulse ends, destroy the pulse object
         Destroy(gameObject);
+    }
+
+    // 🔦 DETECTA INIMIGOS ENQUANTO O PULSO PASSA
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (other.CompareTag("Inimigo"))
+        {
+            other.SendMessage(
+                "AoReceberLuz",
+                (Vector2)transform.position,
+                SendMessageOptions.DontRequireReceiver
+            );
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Inimigo"))
+        {
+            other.SendMessage("PararLuz", SendMessageOptions.DontRequireReceiver);
+        }
     }
 }
