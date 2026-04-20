@@ -241,13 +241,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd7775d1a807a504090f9d3a4429308f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoBase
-  player: {fileID: 0}
+  player: {fileID: 1135680051}
   velocidade: 3
   distanciaDeteccao: 5
   ativo: 1
-  afetadoPelaLuz: 1
-  comMedoDaLuz: 0
+  afetadoPelaLuz: 0
+  comMedoDaLuz: 1
   paraComLuz: 0
+  logLightEvents: 1
 --- !u!61 &40925163
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -839,7 +840,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 873886698}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd7775d1a807a504090f9d3a4429308f, type: 3}
   m_Name: 
@@ -851,6 +852,7 @@ MonoBehaviour:
   afetadoPelaLuz: 0
   comMedoDaLuz: 0
   paraComLuz: 0
+  logLightEvents: 1
 --- !u!61 &873886702
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1935,6 +1937,7 @@ MonoBehaviour:
   duration: 0.5
   pulse: 1
   color: {r: 1, g: 1, b: 1, a: 0.9}
+  checkInterval: 0.12
 --- !u!58 &1963460335
 CircleCollider2D:
   m_ObjectHideFlags: 0

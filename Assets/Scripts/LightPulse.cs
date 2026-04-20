@@ -1,8 +1,8 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
-[RequireComponent(typeof(Collider2D))]
 public class LightPulse : MonoBehaviour
 {
     public float initialRadius = 0.25f;
@@ -11,7 +11,11 @@ public class LightPulse : MonoBehaviour
     public bool pulse = true;
     public Color color = new Color(1f, 1f, 1f, 0.9f);
 
+    [Tooltip("How often (seconds) to check for enemies inside the light radius")]
+    public float checkInterval = 0.12f;
+
     private SpriteRenderer sr;
+    private HashSet<InimigoBase> tracked = new HashSet<InimigoBase>();
 
     void Awake()
     {
@@ -37,6 +41,9 @@ public class LightPulse : MonoBehaviour
             transform.localScale = Vector3.one * maxRadius;
             sr.color = color;
         }
+
+        // start checking for enemies in radius
+        StartCoroutine(MonitorEnemies());
     }
 
     private IEnumerator PulseRoutine()
@@ -60,24 +67,54 @@ public class LightPulse : MonoBehaviour
         Destroy(gameObject);
     }
 
-    // 🔦 DETECTA INIMIGOS ENQUANTO O PULSO PASSA
-    void OnTriggerStay2D(Collider2D other)
+    private IEnumerator MonitorEnemies()
     {
-        if (other.CompareTag("Inimigo"))
+        // run until destroyed
+        while (true)
         {
-            other.SendMessage(
-                "AoReceberLuz",
-                (Vector2)transform.position,
-                SendMessageOptions.DontRequireReceiver
-            );
+            // find colliders in radius
+            Collider2D[] cols = Physics2D.OverlapCircleAll(transform.position, maxRadius);
+
+            // mark found enemies
+            HashSet<InimigoBase> found = new HashSet<InimigoBase>();
+            foreach (var c in cols)
+            {
+                if (c == null) continue;
+                if (!c.CompareTag("Inimigo")) continue;
+
+                var inim = c.GetComponentInParent<InimigoBase>();
+                if (inim == null) continue;
+
+                found.Add(inim);
+                // notify
+                inim.AoReceberLuz(transform.position, maxRadius);
+            }
+
+            // detect enemies that left the radius
+            var toRemove = new List<InimigoBase>();
+            foreach (var prev in tracked)
+            {
+                if (!found.Contains(prev))
+                {
+                    prev.PararLuz();
+                    toRemove.Add(prev);
+                }
+            }
+
+            // update tracked set
+            foreach (var r in toRemove) tracked.Remove(r);
+            foreach (var f in found) tracked.Add(f);
+
+            yield return new WaitForSeconds(checkInterval);
         }
     }
 
-    void OnTriggerExit2D(Collider2D other)
+    void OnDestroy()
     {
-        if (other.CompareTag("Inimigo"))
+        // ensure we notify tracked enemies that light stopped
+        foreach (var inim in tracked)
         {
-            other.SendMessage("PararLuz", SendMessageOptions.DontRequireReceiver);
+            if (inim != null) inim.PararLuz();
         }
     }
 }
