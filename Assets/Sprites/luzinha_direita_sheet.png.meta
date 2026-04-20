@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 410541e0193034b47b747e24ac039d3e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -564921288419263837
+    second: luzinha_direita_sheet_0
+  - first:
+      213: -6094609350814001440
+    second: luzinha_direita_sheet_1
+  - first:
+      213: 5173282808402050683
+    second: luzinha_direita_sheet_2
+  - first:
+      213: -1231879090636100462
+    second: luzinha_direita_sheet_3
+  - first:
+      213: 5574449750071820301
+    second: luzinha_direita_sheet_4
+  - first:
+      213: 842015479314072290
+    second: luzinha_direita_sheet_5
+  - first:
+      213: 5467343963021885639
+    second: luzinha_direita_sheet_6
+  - first:
+      213: 6163646628689208589
+    second: luzinha_direita_sheet_7
+  - first:
+      213: -1076407389183367724
+    second: luzinha_direita_sheet_8
+  - first:
+      213: 6392770508068213434
+    second: luzinha_direita_sheet_9
+  - first:
+      213: -4462947596957411685
+    second: luzinha_direita_sheet_10
+  - first:
+      213: 5599156335954542681
+    second: luzinha_direita_sheet_11
+  - first:
+      213: 2698034364689040786
+    second: luzinha_direita_sheet_12
+  - first:
+      213: -5200059661530510476
+    second: luzinha_direita_sheet_13
+  - first:
+      213: -1806984830989203377
+    second: luzinha_direita_sheet_14
+  - first:
+      213: 6575756051325789577
+    second: luzinha_direita_sheet_15
+  - first:
+      213: -4501165665620608812
+    second: luzinha_direita_sheet_16
+  - first:
+      213: -2451712431664714422
+    second: luzinha_direita_sheet_17
+  - first:
+      213: -5915671885640345259
+    second: luzinha_direita_sheet_18
+  - first:
+      213: -5249604153109056469
+    second: luzinha_direita_sheet_19
+  - first:
+      213: -2862114976368377187
+    second: luzinha_direita_sheet_20
+  - first:
+      213: -7507002621191587485
+    second: luzinha_direita_sheet_21
+  - first:
+      213: -1781687347422288069
+    second: luzinha_direita_sheet_22
+  - first:
+      213: -7430576407124898551
+    second: luzinha_direita_sheet_23
+  - first:
+      213: 3290693710424094359
+    second: luzinha_direita_sheet_24
+  - first:
+      213: 6004399189940645214
+    second: luzinha_direita_sheet_25
+  - first:
+      213: 5803249964879147603
+    second: luzinha_direita_sheet_26
+  - first:
+      213: 8894969976469311321
+    second: luzinha_direita_sheet_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aab6bdc41ff828f0800000000000000
+      internalID: -564921288419263837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 5
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e615f706199b6ba0800000000000000
+      internalID: -6094609350814001440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e70751e413bc740800000000000000
+      internalID: 5173282808402050683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c676c6e7c77eee0800000000000000
+      internalID: -1231879090636100462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00cb43538c6c5d40800000000000000
+      internalID: 5574449750071820301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e245e30e907fab00800000000000000
+      internalID: 842015479314072290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0cbccfd58efdb40800000000000000
+      internalID: 5467343963021885639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 5
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05ed00d3fba98550800000000000000
+      internalID: 6163646628689208589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 5
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5ae1ebe25df01f0800000000000000
+      internalID: -1076407389183367724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 5
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2dfff18eea7b850800000000000000
+      internalID: 6392770508068213434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b969b286ecc6012c0800000000000000
+      internalID: -4462947596957411685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950c27e950334bd40800000000000000
+      internalID: 5599156335954542681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295461bb5f7517520800000000000000
+      internalID: 2698034364689040786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bc2a7f94da5d7b0800000000000000
+      internalID: -5200059661530510476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f488e5abedc4ce6e0800000000000000
+      internalID: -1806984830989203377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98526e0f947c14b50800000000000000
+      internalID: 6575756051325789577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8bf71eca5a881c0800000000000000
+      internalID: -4501165665620608812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d273b7884c9fdd0800000000000000
+      internalID: -2451712431664714422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55954a833cf47eda0800000000000000
+      internalID: -5915671885640345259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24f48a16d8a527b0800000000000000
+      internalID: -5249604153109056469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92cc37d799b748d0800000000000000
+      internalID: -2862114976368377187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369f2fbc3e4c1d790800000000000000
+      internalID: -7507002621191587485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37261c1ccc2647e0800000000000000
+      internalID: -1781687347422288069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d0ce8602a41e890800000000000000
+      internalID: -7430576407124898551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796b07aae74eaad20800000000000000
+      internalID: 3290693710424094359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d2e062049e35350800000000000000
+      internalID: 6004399189940645214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3527b6b9819498050800000000000000
+      internalID: 5803249964879147603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_direita_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fc737e018417b70800000000000000
+      internalID: 8894969976469311321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      luzinha_direita_sheet_0: -564921288419263837
+      luzinha_direita_sheet_1: -6094609350814001440
+      luzinha_direita_sheet_10: -4462947596957411685
+      luzinha_direita_sheet_11: 5599156335954542681
+      luzinha_direita_sheet_12: 2698034364689040786
+      luzinha_direita_sheet_13: -5200059661530510476
+      luzinha_direita_sheet_14: -1806984830989203377
+      luzinha_direita_sheet_15: 6575756051325789577
+      luzinha_direita_sheet_16: -4501165665620608812
+      luzinha_direita_sheet_17: -2451712431664714422
+      luzinha_direita_sheet_18: -5915671885640345259
+      luzinha_direita_sheet_19: -5249604153109056469
+      luzinha_direita_sheet_2: 5173282808402050683
+      luzinha_direita_sheet_20: -2862114976368377187
+      luzinha_direita_sheet_21: -7507002621191587485
+      luzinha_direita_sheet_22: -1781687347422288069
+      luzinha_direita_sheet_23: -7430576407124898551
+      luzinha_direita_sheet_24: 3290693710424094359
+      luzinha_direita_sheet_25: 6004399189940645214
+      luzinha_direita_sheet_26: 5803249964879147603
+      luzinha_direita_sheet_27: 8894969976469311321
+      luzinha_direita_sheet_3: -1231879090636100462
+      luzinha_direita_sheet_4: 5574449750071820301
+      luzinha_direita_sheet_5: 842015479314072290
+      luzinha_direita_sheet_6: 5467343963021885639
+      luzinha_direita_sheet_7: 6163646628689208589
+      luzinha_direita_sheet_8: -1076407389183367724
+      luzinha_direita_sheet_9: 6392770508068213434
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

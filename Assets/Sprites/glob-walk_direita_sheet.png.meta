@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 9eb22cefc4b990f46a612d4b280d8250
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6855464099570126643
+    second: glob-walk_direita_sheet_0
+  - first:
+      213: 532392073662644771
+    second: glob-walk_direita_sheet_1
+  - first:
+      213: 1915216447511856396
+    second: glob-walk_direita_sheet_2
+  - first:
+      213: -4173238847733727577
+    second: glob-walk_direita_sheet_3
+  - first:
+      213: 7664584375406286252
+    second: glob-walk_direita_sheet_4
+  - first:
+      213: 2965922964468704020
+    second: glob-walk_direita_sheet_5
+  - first:
+      213: 5886433904890620220
+    second: glob-walk_direita_sheet_6
+  - first:
+      213: -4893792450451275084
+    second: glob-walk_direita_sheet_7
+  - first:
+      213: -3788532719900303031
+    second: glob-walk_direita_sheet_8
+  - first:
+      213: -5215259863260797907
+    second: glob-walk_direita_sheet_9
+  - first:
+      213: -84220088055030686
+    second: glob-walk_direita_sheet_10
+  - first:
+      213: 1082759488367414267
+    second: glob-walk_direita_sheet_11
+  - first:
+      213: -2658636560507985603
+    second: glob-walk_direita_sheet_12
+  - first:
+      213: -5264596332588204383
+    second: glob-walk_direita_sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: glob-walk_direita_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f0259d640832f50800000000000000
+      internalID: 6855464099570126643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_direita_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 3
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32245ef25cf636700800000000000000
+      internalID: 532392073662644771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_direita_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 3
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c050ee53637349a10800000000000000
+      internalID: 1915216447511856396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_direita_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 3
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae78f5f06da516c0800000000000000
+      internalID: -4173238847733727577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_direita_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 3
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5d91771e21e5a60800000000000000
+      internalID: 7664584375406286252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_direita_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 3
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413a458d833192920800000000000000
+      internalID: 2965922964468704020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_direita_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 3
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3922d6e270d0b150800000000000000
+      internalID: 5886433904890620220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_direita_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 3
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b20d5ad1b1c51cb0800000000000000
+      internalID: -4893792450451275084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_direita_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 3
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941e562509d6c6bc0800000000000000
+      internalID: -3788532719900303031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_direita_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 3
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24ecf639ccaf97b0800000000000000
+      internalID: -5215259863260797907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_direita_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 3
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c1780b64ac4def0800000000000000
+      internalID: -84220088055030686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_direita_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 4
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbc259940cb60f00800000000000000
+      internalID: 1082759488367414267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_direita_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 5
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d312e006220aa1bd0800000000000000
+      internalID: -2658636560507985603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_direita_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae714e478560f6b0800000000000000
+      internalID: -5264596332588204383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      glob-walk_direita_sheet_0: 6855464099570126643
+      glob-walk_direita_sheet_1: 532392073662644771
+      glob-walk_direita_sheet_10: -84220088055030686
+      glob-walk_direita_sheet_11: 1082759488367414267
+      glob-walk_direita_sheet_12: -2658636560507985603
+      glob-walk_direita_sheet_13: -5264596332588204383
+      glob-walk_direita_sheet_2: 1915216447511856396
+      glob-walk_direita_sheet_3: -4173238847733727577
+      glob-walk_direita_sheet_4: 7664584375406286252
+      glob-walk_direita_sheet_5: 2965922964468704020
+      glob-walk_direita_sheet_6: 5886433904890620220
+      glob-walk_direita_sheet_7: -4893792450451275084
+      glob-walk_direita_sheet_8: -3788532719900303031
+      glob-walk_direita_sheet_9: -5215259863260797907
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: c8596daf7df9cf64099a922b7e44ab33
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8497101359720571918
+    second: luzinha_costas_sheet_0
+  - first:
+      213: -6235243428997775593
+    second: luzinha_costas_sheet_1
+  - first:
+      213: -6017427400799021396
+    second: luzinha_costas_sheet_2
+  - first:
+      213: -8294999141890731305
+    second: luzinha_costas_sheet_3
+  - first:
+      213: 9125831722922205516
+    second: luzinha_costas_sheet_4
+  - first:
+      213: -7522805176477214540
+    second: luzinha_costas_sheet_5
+  - first:
+      213: 6190383257023945706
+    second: luzinha_costas_sheet_6
+  - first:
+      213: -8216558800105401729
+    second: luzinha_costas_sheet_7
+  - first:
+      213: -1004065085412077363
+    second: luzinha_costas_sheet_8
+  - first:
+      213: -2747157122392101242
+    second: luzinha_costas_sheet_9
+  - first:
+      213: -2762955429096940325
+    second: luzinha_costas_sheet_10
+  - first:
+      213: -2675346639505860659
+    second: luzinha_costas_sheet_11
+  - first:
+      213: -7997402090977376211
+    second: luzinha_costas_sheet_12
+  - first:
+      213: -8907214393774667832
+    second: luzinha_costas_sheet_13
+  - first:
+      213: -7069530016336553505
+    second: luzinha_costas_sheet_14
+  - first:
+      213: -5209424549969138325
+    second: luzinha_costas_sheet_15
+  - first:
+      213: -5484128839312361820
+    second: luzinha_costas_sheet_16
+  - first:
+      213: -8239312923622379260
+    second: luzinha_costas_sheet_17
+  - first:
+      213: -6878206037949192103
+    second: luzinha_costas_sheet_18
+  - first:
+      213: -60243406946551428
+    second: luzinha_costas_sheet_19
+  - first:
+      213: -3149359820310852350
+    second: luzinha_costas_sheet_20
+  - first:
+      213: 7963639571501899311
+    second: luzinha_costas_sheet_21
+  - first:
+      213: 3135529816263378236
+    second: luzinha_costas_sheet_22
+  - first:
+      213: 2348215855368892067
+    second: luzinha_costas_sheet_23
+  - first:
+      213: 4468859274979848852
+    second: luzinha_costas_sheet_24
+  - first:
+      213: -2861683210919723032
+    second: luzinha_costas_sheet_25
+  - first:
+      213: 3560869131865143750
+    second: luzinha_costas_sheet_26
+  - first:
+      213: -2914191631780408164
+    second: luzinha_costas_sheet_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbdd59355b341a80800000000000000
+      internalID: -8497101359720571918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 5
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fbf761327f779a0800000000000000
+      internalID: -6235243428997775593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 4
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca61ca129adcd7ca0800000000000000
+      internalID: -6017427400799021396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 4
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2de6faa3e32ec80800000000000000
+      internalID: -8294999141890731305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 3
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41e4cce99775ae70800000000000000
+      internalID: 9125831722922205516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 3
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b81b9dac80a99790800000000000000
+      internalID: -7522805176477214540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 4
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb107236c8a8e550800000000000000
+      internalID: 6190383257023945706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 5
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f729b93fd4be8fd80800000000000000
+      internalID: -8216558800105401729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 5
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc014a4ef18d012f0800000000000000
+      internalID: -1004065085412077363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 5
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e62a9f62320e9d0800000000000000
+      internalID: -2747157122392101242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 4
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc907e0da208a9d0800000000000000
+      internalID: -2762955429096940325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 4
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7d73de7624fdad0800000000000000
+      internalID: -2675346639505860659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 3
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28c3599b25830190800000000000000
+      internalID: -7997402090977376211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 3
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c780d883b7336480800000000000000
+      internalID: -8907214393774667832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 3
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd95c47f7ebf3ed90800000000000000
+      internalID: -7069530016336553505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 3
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6de3e6f8f764b7b0800000000000000
+      internalID: -5209424549969138325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 3
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6bf4670e574e3b0800000000000000
+      internalID: -5484128839312361820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 3
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401f33abc8418ad80800000000000000
+      internalID: -8239312923622379260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 3
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95867100d04bb80a0800000000000000
+      internalID: -6878206037949192103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 3
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7934e8c0f8f92ff0800000000000000
+      internalID: -60243406946551428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 3
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20dcb70fde93b44d0800000000000000
+      internalID: -3149359820310852350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 3
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e5d924ff7848e60800000000000000
+      internalID: 7963639571501899311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 3
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35460151c3a38b20800000000000000
+      internalID: 3135529816263378236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 3
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aee33b01e9869020800000000000000
+      internalID: 2348215855368892067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 4
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492326465d3940e30800000000000000
+      internalID: 4468859274979848852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 4
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef3e6118424948d0800000000000000
+      internalID: -2861683210919723032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 4
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9b970fb9fba6130800000000000000
+      internalID: 3560869131865143750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_costas_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 4
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c941054a626be87d0800000000000000
+      internalID: -2914191631780408164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      luzinha_costas_sheet_0: -8497101359720571918
+      luzinha_costas_sheet_1: -6235243428997775593
+      luzinha_costas_sheet_10: -2762955429096940325
+      luzinha_costas_sheet_11: -2675346639505860659
+      luzinha_costas_sheet_12: -7997402090977376211
+      luzinha_costas_sheet_13: -8907214393774667832
+      luzinha_costas_sheet_14: -7069530016336553505
+      luzinha_costas_sheet_15: -5209424549969138325
+      luzinha_costas_sheet_16: -5484128839312361820
+      luzinha_costas_sheet_17: -8239312923622379260
+      luzinha_costas_sheet_18: -6878206037949192103
+      luzinha_costas_sheet_19: -60243406946551428
+      luzinha_costas_sheet_2: -6017427400799021396
+      luzinha_costas_sheet_20: -3149359820310852350
+      luzinha_costas_sheet_21: 7963639571501899311
+      luzinha_costas_sheet_22: 3135529816263378236
+      luzinha_costas_sheet_23: 2348215855368892067
+      luzinha_costas_sheet_24: 4468859274979848852
+      luzinha_costas_sheet_25: -2861683210919723032
+      luzinha_costas_sheet_26: 3560869131865143750
+      luzinha_costas_sheet_27: -2914191631780408164
+      luzinha_costas_sheet_3: -8294999141890731305
+      luzinha_costas_sheet_4: 9125831722922205516
+      luzinha_costas_sheet_5: -7522805176477214540
+      luzinha_costas_sheet_6: 6190383257023945706
+      luzinha_costas_sheet_7: -8216558800105401729
+      luzinha_costas_sheet_8: -1004065085412077363
+      luzinha_costas_sheet_9: -2747157122392101242
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: f61e4a710b56f1b499cd7738e912dbea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7319488289412239166
+    second: luzinha_esquerda_sheet_0
+  - first:
+      213: 1573130557863026413
+    second: luzinha_esquerda_sheet_1
+  - first:
+      213: -5783081617842302446
+    second: luzinha_esquerda_sheet_2
+  - first:
+      213: -593395251202708205
+    second: luzinha_esquerda_sheet_3
+  - first:
+      213: -7022661375656053980
+    second: luzinha_esquerda_sheet_4
+  - first:
+      213: 1403136232985769188
+    second: luzinha_esquerda_sheet_5
+  - first:
+      213: -1401949663334599598
+    second: luzinha_esquerda_sheet_6
+  - first:
+      213: 4613653422021613986
+    second: luzinha_esquerda_sheet_7
+  - first:
+      213: 903959478702142401
+    second: luzinha_esquerda_sheet_8
+  - first:
+      213: 3070307676145433067
+    second: luzinha_esquerda_sheet_9
+  - first:
+      213: 4708801487895823335
+    second: luzinha_esquerda_sheet_10
+  - first:
+      213: -1861108749115122969
+    second: luzinha_esquerda_sheet_11
+  - first:
+      213: -265717703014566861
+    second: luzinha_esquerda_sheet_12
+  - first:
+      213: -4409294438069135828
+    second: luzinha_esquerda_sheet_13
+  - first:
+      213: -4916628476327506579
+    second: luzinha_esquerda_sheet_14
+  - first:
+      213: -8470440763467926341
+    second: luzinha_esquerda_sheet_15
+  - first:
+      213: -5916902983448637813
+    second: luzinha_esquerda_sheet_16
+  - first:
+      213: 7303678333389867937
+    second: luzinha_esquerda_sheet_17
+  - first:
+      213: 8742620677336369565
+    second: luzinha_esquerda_sheet_18
+  - first:
+      213: -8904170600487813861
+    second: luzinha_esquerda_sheet_19
+  - first:
+      213: 5390660413720954331
+    second: luzinha_esquerda_sheet_20
+  - first:
+      213: 1911153846513056109
+    second: luzinha_esquerda_sheet_21
+  - first:
+      213: 4792972820097085875
+    second: luzinha_esquerda_sheet_22
+  - first:
+      213: 5626819151874404771
+    second: luzinha_esquerda_sheet_23
+  - first:
+      213: -5863226339100219319
+    second: luzinha_esquerda_sheet_24
+  - first:
+      213: 4193611900907077755
+    second: luzinha_esquerda_sheet_25
+  - first:
+      213: -1206334155113401209
+    second: luzinha_esquerda_sheet_26
+  - first:
+      213: -5945974119213195709
+    second: luzinha_esquerda_sheet_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 5
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0b3fb5e24fb6a90800000000000000
+      internalID: -7319488289412239166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 5
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deedcb658e1e4d510800000000000000
+      internalID: 1573130557863026413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2121b6d98ed5ebfa0800000000000000
+      internalID: -5783081617842302446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31da8a8b926d3c7f0800000000000000
+      internalID: -593395251202708205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4233a2ebfae7a8e90800000000000000
+      internalID: -7022661375656053980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4b89248f0f87310800000000000000
+      internalID: 1403136232985769188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25476f385364b8ce0800000000000000
+      internalID: -1401949663334599598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 5
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a91d58d75df60040800000000000000
+      internalID: 4613653422021613986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 5
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c373634b528b8c00800000000000000
+      internalID: 903959478702142401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 5
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9bdc3709ceb9a20800000000000000
+      internalID: 3070307676145433067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e38cd34106095140800000000000000
+      internalID: 4708801487895823335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea1f9804730c26e0800000000000000
+      internalID: -1861108749115122969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334b84d282bff4cf0800000000000000
+      internalID: -265717703014566861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2698cce11a0fc2c0800000000000000
+      internalID: -4409294438069135828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6dcdef3370a4cbb0800000000000000
+      internalID: -4916628476327506579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb471820103f27a80800000000000000
+      internalID: -8470440763467926341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e481de510f2eda0800000000000000
+      internalID: -5916902983448637813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab8b676fb0eb5560800000000000000
+      internalID: 7303678333389867937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d998e968f27045970800000000000000
+      internalID: 8742620677336369565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1d7272e3080e6480800000000000000
+      internalID: -8904170600487813861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd50998d5197fca40800000000000000
+      internalID: 5390660413720954331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6938843c48c58a10800000000000000
+      internalID: 1911153846513056109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b13df7b26f048240800000000000000
+      internalID: 4792972820097085875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 3
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1b6dad43a761e40800000000000000
+      internalID: 5626819151874404771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948a73495b2a1aea0800000000000000
+      internalID: -5863226339100219319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70ca6f1ec3b23a30800000000000000
+      internalID: 4193611900907077755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7847b043a7d324fe0800000000000000
+      internalID: -1206334155113401209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_esquerda_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 4
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e91acaa08ab7da0800000000000000
+      internalID: -5945974119213195709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      luzinha_esquerda_sheet_0: -7319488289412239166
+      luzinha_esquerda_sheet_1: 1573130557863026413
+      luzinha_esquerda_sheet_10: 4708801487895823335
+      luzinha_esquerda_sheet_11: -1861108749115122969
+      luzinha_esquerda_sheet_12: -265717703014566861
+      luzinha_esquerda_sheet_13: -4409294438069135828
+      luzinha_esquerda_sheet_14: -4916628476327506579
+      luzinha_esquerda_sheet_15: -8470440763467926341
+      luzinha_esquerda_sheet_16: -5916902983448637813
+      luzinha_esquerda_sheet_17: 7303678333389867937
+      luzinha_esquerda_sheet_18: 8742620677336369565
+      luzinha_esquerda_sheet_19: -8904170600487813861
+      luzinha_esquerda_sheet_2: -5783081617842302446
+      luzinha_esquerda_sheet_20: 5390660413720954331
+      luzinha_esquerda_sheet_21: 1911153846513056109
+      luzinha_esquerda_sheet_22: 4792972820097085875
+      luzinha_esquerda_sheet_23: 5626819151874404771
+      luzinha_esquerda_sheet_24: -5863226339100219319
+      luzinha_esquerda_sheet_25: 4193611900907077755
+      luzinha_esquerda_sheet_26: -1206334155113401209
+      luzinha_esquerda_sheet_27: -5945974119213195709
+      luzinha_esquerda_sheet_3: -593395251202708205
+      luzinha_esquerda_sheet_4: -7022661375656053980
+      luzinha_esquerda_sheet_5: 1403136232985769188
+      luzinha_esquerda_sheet_6: -1401949663334599598
+      luzinha_esquerda_sheet_7: 4613653422021613986
+      luzinha_esquerda_sheet_8: 903959478702142401
+      luzinha_esquerda_sheet_9: 3070307676145433067
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

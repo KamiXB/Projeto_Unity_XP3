@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: d1bcef22109ab294cab7472018a1a26e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3288441605689632899
+    second: glob-walk_frente_sheet_0
+  - first:
+      213: -1472901472861826269
+    second: glob-walk_frente_sheet_1
+  - first:
+      213: 6579469638225330877
+    second: glob-walk_frente_sheet_2
+  - first:
+      213: -5266296781262844450
+    second: glob-walk_frente_sheet_3
+  - first:
+      213: -3841379196681782376
+    second: glob-walk_frente_sheet_4
+  - first:
+      213: -110115954379391098
+    second: glob-walk_frente_sheet_5
+  - first:
+      213: 5184213366421705833
+    second: glob-walk_frente_sheet_6
+  - first:
+      213: -7964945923592410973
+    second: glob-walk_frente_sheet_7
+  - first:
+      213: 2409511734625095981
+    second: glob-walk_frente_sheet_8
+  - first:
+      213: 4807217618154998492
+    second: glob-walk_frente_sheet_9
+  - first:
+      213: 3392155839498072305
+    second: glob-walk_frente_sheet_10
+  - first:
+      213: -3628935170380266047
+    second: glob-walk_frente_sheet_11
+  - first:
+      213: 8096007195284286773
+    second: glob-walk_frente_sheet_12
+  - first:
+      213: -5324414487108519392
+    second: glob-walk_frente_sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: glob-walk_frente_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388eebba734e2ad20800000000000000
+      internalID: 3288441605689632899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_frente_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 3
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323dbe80ae33f8be0800000000000000
+      internalID: -1472901472861826269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_frente_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 3
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db283e4c6c8fe4b50800000000000000
+      internalID: 6579469638225330877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_frente_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 3
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd8b0fbafa5ae6b0800000000000000
+      internalID: -5266296781262844450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_frente_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 3
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89bf43e19fda0bac0800000000000000
+      internalID: -3841379196681782376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_frente_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 3
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ffc177f1ac87ef0800000000000000
+      internalID: -110115954379391098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_frente_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 3
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964d561f69602f740800000000000000
+      internalID: 5184213366421705833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_frente_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 3
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a82411f1e3d67190800000000000000
+      internalID: -7964945923592410973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_frente_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 3
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21d670182e407120800000000000000
+      internalID: 2409511734625095981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_frente_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 3
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdac02834faa6b240800000000000000
+      internalID: 4807217618154998492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_frente_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 3
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0bc0c73cb531f20800000000000000
+      internalID: 3392155839498072305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_frente_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 4
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5009080be63adc0800000000000000
+      internalID: -3628935170380266047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_frente_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 5
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d2ded46abca5070800000000000000
+      internalID: 8096007195284286773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_frente_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02af3f2eb31eb16b0800000000000000
+      internalID: -5324414487108519392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      glob-walk_frente_sheet_0: 3288441605689632899
+      glob-walk_frente_sheet_1: -1472901472861826269
+      glob-walk_frente_sheet_10: 3392155839498072305
+      glob-walk_frente_sheet_11: -3628935170380266047
+      glob-walk_frente_sheet_12: 8096007195284286773
+      glob-walk_frente_sheet_13: -5324414487108519392
+      glob-walk_frente_sheet_2: 6579469638225330877
+      glob-walk_frente_sheet_3: -5266296781262844450
+      glob-walk_frente_sheet_4: -3841379196681782376
+      glob-walk_frente_sheet_5: -110115954379391098
+      glob-walk_frente_sheet_6: 5184213366421705833
+      glob-walk_frente_sheet_7: -7964945923592410973
+      glob-walk_frente_sheet_8: 2409511734625095981
+      glob-walk_frente_sheet_9: 4807217618154998492
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

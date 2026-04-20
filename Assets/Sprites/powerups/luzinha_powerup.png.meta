@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 9f729d9bfe00c2c4999a89b10db2752b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3474354705505548580
+    second: luzinha_powerup_0
+  - first:
+      213: -2424043306852896719
+    second: luzinha_powerup_1
+  - first:
+      213: 5249880728622333320
+    second: luzinha_powerup_2
+  - first:
+      213: -5795228605389161863
+    second: luzinha_powerup_3
+  - first:
+      213: -855622724949366358
+    second: luzinha_powerup_4
+  - first:
+      213: 1075754152030843916
+    second: luzinha_powerup_5
+  - first:
+      213: -4967142102512402634
+    second: luzinha_powerup_6
+  - first:
+      213: -1398092750082863841
+    second: luzinha_powerup_7
+  - first:
+      213: 422562219645952213
+    second: luzinha_powerup_8
+  - first:
+      213: 2296446366633032810
+    second: luzinha_powerup_9
+  - first:
+      213: -6918011809017502285
+    second: luzinha_powerup_10
+  - first:
+      213: 6679677322018513800
+    second: luzinha_powerup_11
+  - first:
+      213: 2454868281432183218
+    second: luzinha_powerup_12
+  - first:
+      213: 7496437165339543881
+    second: luzinha_powerup_13
+  - first:
+      213: 7731497403137382923
+    second: luzinha_powerup_14
+  - first:
+      213: -6959780309103317880
+    second: luzinha_powerup_15
+  - first:
+      213: -9068994362046407731
+    second: luzinha_powerup_16
+  - first:
+      213: -7037658500895392777
+    second: luzinha_powerup_17
+  - first:
+      213: -3190073288743217602
+    second: luzinha_powerup_18
+  - first:
+      213: -8405522081760606303
+    second: luzinha_powerup_19
+  - first:
+      213: -7024995723098790638
+    second: luzinha_powerup_20
+  - first:
+      213: -5594146443443950050
+    second: luzinha_powerup_21
+  - first:
+      213: 5743549188672501214
+    second: luzinha_powerup_22
+  - first:
+      213: -3424313925700853712
+    second: luzinha_powerup_23
+  - first:
+      213: -4601665822353993815
+    second: luzinha_powerup_24
+  - first:
+      213: -2229372555604904135
+    second: luzinha_powerup_25
+  - first:
+      213: -1992878557225255716
+    second: luzinha_powerup_26
+  - first:
+      213: -8010072499014017970
+    second: luzinha_powerup_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: luzinha_powerup_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 4
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd682a2adcc98cfc0800000000000000
+      internalID: -3474354705505548580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 4
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130bede94711c5ed0800000000000000
+      internalID: -2424043306852896719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 3
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88df3b625b25bd840800000000000000
+      internalID: 5249880728622333320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ab89fa946339fa0800000000000000
+      internalID: -5795228605389161863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa924a93aa73024f0800000000000000
+      internalID: -855622724949366358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c043371a3b8ddee00800000000000000
+      internalID: 1075754152030843916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_6
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 3
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f7cd6239a211bb0800000000000000
+      internalID: -4967142102512402634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 3
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d034c1d0af89ce0800000000000000
+      internalID: -1398092750082863841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 4
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d06f75991e3dd500800000000000000
+      internalID: 422562219645952213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 4
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cf5e8adcd9edf10800000000000000
+      internalID: 2296446366633032810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_10
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5ed83b9e84eff90800000000000000
+      internalID: -6918011809017502285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_11
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 3
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8836529422bf2bc50800000000000000
+      internalID: 6679677322018513800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_12
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1932d02b1711220800000000000000
+      internalID: 2454868281432183218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_13
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949891152e1b80860800000000000000
+      internalID: 7496437165339543881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_14
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0adbd7ccebcb4b60800000000000000
+      internalID: 7731497403137382923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_15
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c6321fea4e96f90800000000000000
+      internalID: -6959780309103317880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_16
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb14346da5742280800000000000000
+      internalID: -9068994362046407731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_17
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb3f9b61e6355e90800000000000000
+      internalID: -7037658500895392777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_18
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e369ff0ee359ab3d0800000000000000
+      internalID: -3190073288743217602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_19
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a705f47336995b80800000000000000
+      internalID: -8405522081760606303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_20
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215ee002c93328e90800000000000000
+      internalID: -7024995723098790638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_21
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e2201e2799d52b0800000000000000
+      internalID: -5594146443443950050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_22
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5bec47e8f25bf40800000000000000
+      internalID: 5743549188672501214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_23
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 2
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0306d2b90a46a70d0800000000000000
+      internalID: -3424313925700853712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_24
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 3
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afc883b0599320c0800000000000000
+      internalID: -4601665822353993815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_25
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 3
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9373a2fe87daf01e0800000000000000
+      internalID: -2229372555604904135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_26
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 3
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc781cc28fd754e0800000000000000
+      internalID: -1992878557225255716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luzinha_powerup_27
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 3
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4cd427508186d090800000000000000
+      internalID: -8010072499014017970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      luzinha_powerup_0: -3474354705505548580
+      luzinha_powerup_1: -2424043306852896719
+      luzinha_powerup_10: -6918011809017502285
+      luzinha_powerup_11: 6679677322018513800
+      luzinha_powerup_12: 2454868281432183218
+      luzinha_powerup_13: 7496437165339543881
+      luzinha_powerup_14: 7731497403137382923
+      luzinha_powerup_15: -6959780309103317880
+      luzinha_powerup_16: -9068994362046407731
+      luzinha_powerup_17: -7037658500895392777
+      luzinha_powerup_18: -3190073288743217602
+      luzinha_powerup_19: -8405522081760606303
+      luzinha_powerup_2: 5249880728622333320
+      luzinha_powerup_20: -7024995723098790638
+      luzinha_powerup_21: -5594146443443950050
+      luzinha_powerup_22: 5743549188672501214
+      luzinha_powerup_23: -3424313925700853712
+      luzinha_powerup_24: -4601665822353993815
+      luzinha_powerup_25: -2229372555604904135
+      luzinha_powerup_26: -1992878557225255716
+      luzinha_powerup_27: -8010072499014017970
+      luzinha_powerup_3: -5795228605389161863
+      luzinha_powerup_4: -855622724949366358
+      luzinha_powerup_5: 1075754152030843916
+      luzinha_powerup_6: -4967142102512402634
+      luzinha_powerup_7: -1398092750082863841
+      luzinha_powerup_8: 422562219645952213
+      luzinha_powerup_9: 2296446366633032810
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

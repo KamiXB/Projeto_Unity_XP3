@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: e66ebce849a69cc4682ab88fd5203981
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1806551804206266683
+    second: glob-walk_esquerda_sheet_0
+  - first:
+      213: 7114576123956435087
+    second: glob-walk_esquerda_sheet_1
+  - first:
+      213: -9067358413698286031
+    second: glob-walk_esquerda_sheet_2
+  - first:
+      213: 7874172226278346303
+    second: glob-walk_esquerda_sheet_3
+  - first:
+      213: -800942798620760014
+    second: glob-walk_esquerda_sheet_4
+  - first:
+      213: -5879163300258043168
+    second: glob-walk_esquerda_sheet_5
+  - first:
+      213: 8458933279529478924
+    second: glob-walk_esquerda_sheet_6
+  - first:
+      213: -2554858265911771248
+    second: glob-walk_esquerda_sheet_7
+  - first:
+      213: 8272249508036680422
+    second: glob-walk_esquerda_sheet_8
+  - first:
+      213: 1830371873199428499
+    second: glob-walk_esquerda_sheet_9
+  - first:
+      213: -8479513668208077312
+    second: glob-walk_esquerda_sheet_10
+  - first:
+      213: 8247554676727171034
+    second: glob-walk_esquerda_sheet_11
+  - first:
+      213: -5965594499113912092
+    second: glob-walk_esquerda_sheet_12
+  - first:
+      213: -4052534662268825490
+    second: glob-walk_esquerda_sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: glob-walk_esquerda_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b393e0e5b49221910800000000000000
+      internalID: 1806551804206266683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_esquerda_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 3
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8816e34a4d0cb260800000000000000
+      internalID: 7114576123956435087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_esquerda_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 3
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e3d5c40954a2280800000000000000
+      internalID: -9067358413698286031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_esquerda_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 3
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e419fabeda64d60800000000000000
+      internalID: 7874172226278346303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_esquerda_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 3
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2386dcaa4ca72e4f0800000000000000
+      internalID: -800942798620760014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_esquerda_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 3
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea2b97a024096ea0800000000000000
+      internalID: -5879163300258043168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_esquerda_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 3
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ba519100b246570800000000000000
+      internalID: 8458933279529478924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_esquerda_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 3
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fbbd081f15b8cd0800000000000000
+      internalID: -2554858265911771248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_esquerda_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 3
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea1deb691fecc270800000000000000
+      internalID: 8272249508036680422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_esquerda_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 3
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3931bec5589c66910800000000000000
+      internalID: 1830371873199428499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_esquerda_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 3
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0065362ce37b25a80800000000000000
+      internalID: -8479513668208077312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_esquerda_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 4
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad74fe3f743357270800000000000000
+      internalID: 8247554676727171034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_esquerda_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 5
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e87a4ef863f53da0800000000000000
+      internalID: -5965594499113912092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glob-walk_esquerda_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 3
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e605287223182c7c0800000000000000
+      internalID: -4052534662268825490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      glob-walk_esquerda_sheet_0: 1806551804206266683
+      glob-walk_esquerda_sheet_1: 7114576123956435087
+      glob-walk_esquerda_sheet_10: -8479513668208077312
+      glob-walk_esquerda_sheet_11: 8247554676727171034
+      glob-walk_esquerda_sheet_12: -5965594499113912092
+      glob-walk_esquerda_sheet_13: -4052534662268825490
+      glob-walk_esquerda_sheet_2: -9067358413698286031
+      glob-walk_esquerda_sheet_3: 7874172226278346303
+      glob-walk_esquerda_sheet_4: -800942798620760014
+      glob-walk_esquerda_sheet_5: -5879163300258043168
+      glob-walk_esquerda_sheet_6: 8458933279529478924
+      glob-walk_esquerda_sheet_7: -2554858265911771248
+      glob-walk_esquerda_sheet_8: 8272249508036680422
+      glob-walk_esquerda_sheet_9: 1830371873199428499
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
