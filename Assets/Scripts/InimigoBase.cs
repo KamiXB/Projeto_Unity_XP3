@@ -16,6 +16,8 @@ public class InimigoBase : MonoBehaviour
 
     private bool recebendoLuz = false;
     private Vector2 posicaoDaLuz;
+    [Header("Debug")]
+    [SerializeField] private bool logLightEvents = true;
 
     void Update()
     {
@@ -72,14 +74,35 @@ public class InimigoBase : MonoBehaviour
     }
 
     // 🔦 chamado pela luz
+    // Called by light with position only (keeps previous behavior)
     public void AoReceberLuz(Vector2 posLuz)
     {
-        recebendoLuz = true;
+        // default: treat as inside light
+        AoReceberLuz(posLuz, float.PositiveInfinity);
+    }
+
+    // Called by light with position and radius: will only mark as receiving light if inside radius
+    public void AoReceberLuz(Vector2 posLuz, float radius)
+    {
         posicaoDaLuz = posLuz;
+        float distSqr = ((Vector2)transform.position - posLuz).sqrMagnitude;
+        bool inside = distSqr <= radius * radius;
+
+        if (inside)
+        {
+            if (!recebendoLuz && logLightEvents) Debug.Log($"Inimigo '{name}' entrou no raio da luz. dist={Mathf.Sqrt(distSqr):F2} radius={radius:F2}");
+            recebendoLuz = true;
+        }
+        else
+        {
+            if (recebendoLuz && logLightEvents) Debug.Log($"Inimigo '{name}' saiu do raio da luz. dist={Mathf.Sqrt(distSqr):F2} radius={radius:F2}");
+            recebendoLuz = false;
+        }
     }
 
     public void PararLuz()
     {
+        if (recebendoLuz && logLightEvents) Debug.Log($"Inimigo '{name}' PararLuz() called - no longer receiving light.");
         recebendoLuz = false;
     }
 }
