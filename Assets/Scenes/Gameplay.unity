@@ -752,6 +752,7 @@ GameObject:
   - component: {fileID: 873886699}
   - component: {fileID: 873886701}
   - component: {fileID: 873886702}
+  - component: {fileID: 873886703}
   m_Layer: 0
   m_Name: Inimigo2
   m_TagString: Inimigo
@@ -899,6 +900,23 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!111 &873886703
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873886698}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 29a897230814cda4f888c77001e5dbb4, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
 --- !u!1 &881529775
 GameObject:
   m_ObjectHideFlags: 0
