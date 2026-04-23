@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class InimigoBase : MonoBehaviour
 {
     public Transform player;
@@ -19,6 +20,25 @@ public class InimigoBase : MonoBehaviour
     [Header("Debug")]
     [SerializeField] private bool logLightEvents = true;
 
+    private Rigidbody2D rb;
+    private Collider2D col;
+
+    [Header("Physics Movement")]
+    [SerializeField] private float skinWidth = 0.02f;
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        col = GetComponent<Collider2D>();
+        if (rb == null)
+        {
+            Debug.LogWarning($"Inimigo '{name}' requires a Rigidbody2D for physics movement.");
+        }
+        if (col == null)
+        {
+            Debug.LogWarning($"Inimigo '{name}' should have a Collider2D to interact with walls.");
+        }
+    }
+
     void Update()
     {
         if (player == null) return;
@@ -31,6 +51,20 @@ public class InimigoBase : MonoBehaviour
                 FugirDaLuz();
                 return;
             }
+
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        col = GetComponent<Collider2D>();
+        if (rb == null)
+        {
+            Debug.LogWarning($"Inimigo '{name}' requires a Rigidbody2D for physics movement.");
+        }
+        if (col == null)
+        {
+            Debug.LogWarning($"Inimigo '{name}' should have a Collider2D to interact with walls.");
+        }
+    }
 
             if (paraComLuz)
             {
@@ -58,19 +92,83 @@ public class InimigoBase : MonoBehaviour
     void PerseguirPlayer()
     {
         Vector2 direcao = (player.position - transform.position).normalized;
-        transform.position += (Vector3)(direcao * velocidade * Time.deltaTime);
+        MoveWithPhysics(direcao * velocidade * Time.deltaTime);
     }
 
     void FugirDaLuz()
     {
         Vector2 direcao = (transform.position - (Vector3)posicaoDaLuz).normalized;
-        transform.position += (Vector3)(direcao * velocidade * Time.deltaTime);
+        MoveWithPhysics(direcao * velocidade * Time.deltaTime);
     }
 
     void IrParaLuz()
     {
         Vector2 direcao = (posicaoDaLuz - (Vector2)transform.position).normalized;
-        transform.position += (Vector3)(direcao * velocidade * Time.deltaTime);
+        MoveWithPhysics(direcao * velocidade * Time.deltaTime);
+    }
+
+    // Try to move using Rigidbody2D and respect collisions. If blocked, try sliding.
+    private void MoveWithPhysics(Vector2 displacement)
+    {
+        if (rb == null)
+        {
+            // fallback to transform if no rigidbody
+            transform.position += (Vector3)displacement;
+            return;
+        }
+
+        if (displacement.sqrMagnitude < 0.000001f) return;
+
+        Vector2 dir = displacement.normalized;
+        float dist = displacement.magnitude;
+
+        RaycastHit2D[] hits = new RaycastHit2D[8];
+        int hitCount = rb.Cast(dir, hits, dist + skinWidth);
+
+        if (hitCount == 0)
+        {
+            rb.MovePosition(rb.position + displacement);
+            return;
+        }
+
+        // compute average normal
+        Vector2 avgNormal = Vector2.zero;
+        for (int i = 0; i < hitCount; i++) avgNormal += hits[i].normal;
+        avgNormal /= hitCount;
+        avgNormal.Normalize();
+
+        // slide along surface: remove normal component
+        Vector2 slide = displacement - Vector2.Dot(displacement, avgNormal) * avgNormal;
+        if (slide.sqrMagnitude > 0.0001f)
+        {
+            RaycastHit2D[] slideHits = new RaycastHit2D[8];
+            int sCount = rb.Cast(slide.normalized, slideHits, slide.magnitude + skinWidth);
+            if (sCount == 0)
+            {
+                rb.MovePosition(rb.position + slide);
+                return;
+            }
+        }
+
+        // if cannot slide, try small perpendicular offsets
+        Vector2 perp = Vector2.Perpendicular(dir).normalized * (dist * 0.5f);
+        RaycastHit2D[] pHits = new RaycastHit2D[8];
+        int pCount = rb.Cast(perp.normalized, pHits, perp.magnitude + skinWidth);
+        if (pCount == 0)
+        {
+            rb.MovePosition(rb.position + perp);
+            return;
+        }
+
+        perp = -perp;
+        pCount = rb.Cast(perp.normalized, pHits, perp.magnitude + skinWidth);
+        if (pCount == 0)
+        {
+            rb.MovePosition(rb.position + perp);
+            return;
+        }
+
+        // blocked: do not move this frame
     }
 
     // 🔦 chamado pela luz
