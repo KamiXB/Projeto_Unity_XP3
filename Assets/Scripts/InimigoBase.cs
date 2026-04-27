@@ -23,6 +23,13 @@ public class InimigoBase : MonoBehaviour
     private Rigidbody2D rb;
     private Collider2D col;
 
+    [Header("Combate")]
+    [SerializeField] private int attackDamage = 1;
+    [SerializeField] private float attackRange = 0.6f;
+    [SerializeField] private float attackCooldown = 1f;
+    private float attackTimer = 0f;
+    private Moviment playerMovRef;
+
     [Header("Physics Movement")]
     [SerializeField] private float skinWidth = 0.02f;
     void Awake()
@@ -43,6 +50,9 @@ public class InimigoBase : MonoBehaviour
     {
         if (player == null) return;
 
+        // attack cooldown timer
+        if (attackTimer > 0f) attackTimer -= Time.deltaTime;
+
         // 🔦 SE ESTÁ NA LUZ
         if (recebendoLuz)
         {
@@ -51,20 +61,6 @@ public class InimigoBase : MonoBehaviour
                 FugirDaLuz();
                 return;
             }
-
-    void Awake()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        col = GetComponent<Collider2D>();
-        if (rb == null)
-        {
-            Debug.LogWarning($"Inimigo '{name}' requires a Rigidbody2D for physics movement.");
-        }
-        if (col == null)
-        {
-            Debug.LogWarning($"Inimigo '{name}' should have a Collider2D to interact with walls.");
-        }
-    }
 
             if (paraComLuz)
             {
@@ -83,10 +79,42 @@ public class InimigoBase : MonoBehaviour
 
         float distancia = Vector2.Distance(transform.position, player.position);
 
+        // If close enough, attack instead of chasing
+        if (distancia <= attackRange)
+        {
+            TryAttackPlayer();
+            return;
+        }
+
         if (distancia <= distanciaDeteccao)
         {
             PerseguirPlayer();
         }
+    }
+
+    private void TryAttackPlayer()
+    {
+        if (attackTimer > 0f) return;
+
+        // resolve Moviment (player) if not cached
+        if (playerMovRef == null && player != null)
+        {
+            playerMovRef = player.GetComponent<Moviment>();
+        }
+
+        if (playerMovRef != null)
+        {
+            playerMovRef.TakeDamage(attackDamage);
+            if (logLightEvents) Debug.Log($"Inimigo '{name}' atacou o jogador for {attackDamage} de dano");
+        }
+        else if (player != null)
+        {
+            // fallback: try SendMessage so user can implement method with any name
+            player.SendMessage("TakeDamage", attackDamage, SendMessageOptions.DontRequireReceiver);
+            if (logLightEvents) Debug.Log($"Inimigo '{name}' atacou jogador via SendMessage ({attackDamage})");
+        }
+
+        attackTimer = attackCooldown;
     }
 
     void PerseguirPlayer()

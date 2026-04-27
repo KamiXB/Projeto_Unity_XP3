@@ -247,6 +247,9 @@ MonoBehaviour:
   comMedoDaLuz: 1
   paraComLuz: 0
   logLightEvents: 1
+  attackDamage: 1
+  attackRange: 0.6
+  attackCooldown: 1
   skinWidth: 1
 --- !u!61 &40925163
 BoxCollider2D:
@@ -2199,6 +2202,9 @@ MonoBehaviour:
   comMedoDaLuz: 0
   paraComLuz: 0
   logLightEvents: 1
+  attackDamage: 1
+  attackRange: 0.6
+  attackCooldown: 1
   skinWidth: 0.02
 --- !u!61 &873886702
 BoxCollider2D:
@@ -2694,6 +2700,7 @@ GameObject:
   - component: {fileID: 1135680056}
   - component: {fileID: 1135680055}
   - component: {fileID: 1135680057}
+  - component: {fileID: 1135680059}
   - component: {fileID: 1135680058}
   m_Layer: 3
   m_Name: Player
@@ -2862,6 +2869,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Moviment
   speed: 5
+  maxHealth: 5
+  invulnerabilityTime: 1
 --- !u!114 &1135680057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2877,7 +2886,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 8361202391575776166, guid: 910616d45c26e8942b5197b866aeca11, type: 3}
   projectileSpeed: 8
   projectileLifetime: 3
-  fireRate: 1
+  fireRate: 0.3
   projectilesPerShot: 8
   spawnRadius: 0.5
   holdToFire: 1
@@ -2903,6 +2912,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1135680059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135680049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac383e726c34ce4aab01dd6c141b39d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  maxHealth: 5
+  currentHealth: 0
 --- !u!1 &1154966653
 GameObject:
   m_ObjectHideFlags: 0
@@ -3198,6 +3221,9 @@ MonoBehaviour:
   comMedoDaLuz: 1
   paraComLuz: 0
   logLightEvents: 1
+  attackDamage: 1
+  attackRange: 0.6
+  attackCooldown: 1
   skinWidth: 1
 --- !u!114 &1181576580
 MonoBehaviour:
@@ -3696,7 +3722,7 @@ Transform:
   m_GameObject: {fileID: 1586041017}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.07, y: 2.6, z: 0}
+  m_LocalPosition: {x: -8.32, y: 1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4154,6 +4180,9 @@ MonoBehaviour:
   comMedoDaLuz: 1
   paraComLuz: 0
   logLightEvents: 1
+  attackDamage: 1
+  attackRange: 0.6
+  attackCooldown: 1
   skinWidth: 1
 --- !u!212 &1715507913
 SpriteRenderer:
@@ -4366,6 +4395,9 @@ MonoBehaviour:
   comMedoDaLuz: 1
   paraComLuz: 0
   logLightEvents: 1
+  attackDamage: 1
+  attackRange: 0.6
+  attackCooldown: 1
   skinWidth: 1
 --- !u!114 &1748759018
 MonoBehaviour:

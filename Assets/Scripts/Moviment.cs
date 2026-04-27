@@ -3,6 +3,9 @@ using UnityEngine;
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
 #endif
+#if ENABLE_INPUT_SYSTEM
+using UnityEngine.InputSystem;
+#endif
 
 public class Moviment : MonoBehaviour
 {
@@ -12,6 +15,13 @@ public class Moviment : MonoBehaviour
     private Vector2 movement;
     private Vector2 lastMove;
     private Animator animator;
+
+    [Header("Player")]
+    [SerializeField] private int maxHealth = 5;
+    [SerializeField] private float invulnerabilityTime = 1f;
+
+    private int currentHealth;
+    private bool invulnerable = false;
 
     // Orientação exclusiva
     private bool isFacingFront = true;
@@ -29,6 +39,8 @@ public class Moviment : MonoBehaviour
         animator = GetComponent<Animator>();
         // Inicializa parâmetros no Animator (opcional)
         SyncAnimatorFacing();
+
+        currentHealth = maxHealth;
     }
 
 #if ENABLE_INPUT_SYSTEM
@@ -131,5 +143,52 @@ public class Moviment : MonoBehaviour
         animator.SetBool("isFacingBack", isFacingBack);
         animator.SetBool("isFacingLeft", isFacingLeft);
         animator.SetBool("isFacingRight", isFacingRight);
+    }
+
+    // Public API for damage
+    public void TakeDamage(int amount)
+    {
+        if (invulnerable) return;
+
+        currentHealth -= amount;
+        if (currentHealth <= 0)
+        {
+            currentHealth = 0;
+            Die();
+        }
+        else
+        {
+            StartCoroutine(InvulnerabilityFlash());
+        }
+    }
+
+    private void Die()
+    {
+        // disable movement and shooter if present
+        enabled = false;
+        var shooter = GetComponent<Shooter>();
+        if (shooter != null) shooter.enabled = false;
+
+        if (animator != null) animator.SetTrigger("dead");
+        Debug.Log($"Player died: {name}");
+    }
+
+    private System.Collections.IEnumerator InvulnerabilityFlash()
+    {
+        invulnerable = true;
+        var sr = GetComponent<SpriteRenderer>();
+        float t = 0f;
+        while (t < invulnerabilityTime)
+        {
+            if (sr != null)
+            {
+                // simple flash
+                sr.enabled = (Mathf.FloorToInt(t * 10f) % 2) == 0;
+            }
+            t += Time.deltaTime;
+            yield return null;
+        }
+        if (sr != null) sr.enabled = true;
+        invulnerable = false;
     }
 }
