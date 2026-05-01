@@ -32,10 +32,22 @@ public class InimigoBase : MonoBehaviour
 
     [Header("Physics Movement")]
     [SerializeField] private float skinWidth = 0.02f;
+
+    // Animator / facing
+    private Animator animator;
+    private bool isFacingFront = true;
+    private bool isFacingBack = false;
+    private bool isFacingLeft = false;
+    private bool isFacingRight = false;
+    private bool isMoving = false;
+    private Vector2 lastMove = Vector2.down; // default facing (front) as in your Moviment
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<Collider2D>();
+        animator = GetComponent<Animator>();
+
         if (rb == null)
         {
             Debug.LogWarning($"Inimigo '{name}' requires a Rigidbody2D for physics movement.");
@@ -44,11 +56,19 @@ public class InimigoBase : MonoBehaviour
         {
             Debug.LogWarning($"Inimigo '{name}' should have a Collider2D to interact with walls.");
         }
+
+        SyncAnimatorFacing();
     }
 
     void Update()
     {
-        if (player == null) return;
+        isMoving = false;
+
+        if (player == null)
+        {
+            UpdateAnimatorSpeed();
+            return;
+        }
 
         // attack cooldown timer
         if (attackTimer > 0f) attackTimer -= Time.deltaTime;
@@ -59,23 +79,30 @@ public class InimigoBase : MonoBehaviour
             if (comMedoDaLuz)
             {
                 FugirDaLuz();
+                UpdateAnimatorSpeed();
                 return;
             }
 
             if (paraComLuz)
             {
+                UpdateAnimatorSpeed();
                 return;
             }
 
             if (afetadoPelaLuz)
             {
                 IrParaLuz();
+                UpdateAnimatorSpeed();
                 return;
             }
         }
 
         // 🎯 comportamento normal
-        if (!ativo) return;
+        if (!ativo)
+        {
+            UpdateAnimatorSpeed();
+            return;
+        }
 
         float distancia = Vector2.Distance(transform.position, player.position);
 
@@ -83,6 +110,7 @@ public class InimigoBase : MonoBehaviour
         if (distancia <= attackRange)
         {
             TryAttackPlayer();
+            UpdateAnimatorSpeed();
             return;
         }
 
@@ -90,6 +118,8 @@ public class InimigoBase : MonoBehaviour
         {
             PerseguirPlayer();
         }
+
+        UpdateAnimatorSpeed();
     }
 
     private void TryAttackPlayer()
@@ -120,18 +150,24 @@ public class InimigoBase : MonoBehaviour
     void PerseguirPlayer()
     {
         Vector2 direcao = (player.position - transform.position).normalized;
+        SetFacingFromDirection(direcao);
+        isMoving = true;
         MoveWithPhysics(direcao * velocidade * Time.deltaTime);
     }
 
     void FugirDaLuz()
     {
         Vector2 direcao = (transform.position - (Vector3)posicaoDaLuz).normalized;
+        SetFacingFromDirection(direcao);
+        isMoving = true;
         MoveWithPhysics(direcao * velocidade * Time.deltaTime);
     }
 
     void IrParaLuz()
     {
         Vector2 direcao = (posicaoDaLuz - (Vector2)transform.position).normalized;
+        SetFacingFromDirection(direcao);
+        isMoving = true;
         MoveWithPhysics(direcao * velocidade * Time.deltaTime);
     }
 
@@ -230,5 +266,43 @@ public class InimigoBase : MonoBehaviour
     {
         if (recebendoLuz && logLightEvents) Debug.Log($"Inimigo '{name}' PararLuz() called - no longer receiving light.");
         recebendoLuz = false;
+    }
+
+    private void SetFacingFromDirection(Vector2 dir)
+    {
+        // keep lastMove for idle look
+        if (dir != Vector2.zero) lastMove = dir;
+
+        // make exclusive
+        isFacingFront = isFacingBack = isFacingLeft = isFacingRight = false;
+
+        if (Mathf.Abs(dir.y) > Mathf.Abs(dir.x))
+        {
+            if (dir.y < 0f) isFacingFront = true;
+            else if (dir.y > 0f) isFacingBack = true;
+        }
+        else
+        {
+            if (dir.x < 0f) isFacingLeft = true;
+            else if (dir.x > 0f) isFacingRight = true;
+        }
+
+        SyncAnimatorFacing();
+    }
+
+    private void SyncAnimatorFacing()
+    {
+        if (animator == null) return;
+        animator.SetBool("isFacingFront", isFacingFront);
+        animator.SetBool("isFacingBack", isFacingBack);
+        animator.SetBool("isFacingLeft", isFacingLeft);
+        animator.SetBool("isFacingRight", isFacingRight);
+    }
+
+    private void UpdateAnimatorSpeed()
+    {
+        if (animator == null) return;
+        // use 1 = walking, 0 = idle to match your other code
+        animator.SetFloat("speed", isMoving ? 1f : 0f);
     }
 }
