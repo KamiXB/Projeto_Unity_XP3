@@ -22,6 +22,16 @@ public class Moviment : MonoBehaviour
 
     private int currentHealth;
     private bool invulnerable = false;
+    // Key collection
+    private bool hasKey = false;
+    public bool HasKey => hasKey;
+
+    public void CollectKey()
+    {
+        hasKey = true;
+        Debug.Log($"Player '{name}' coletou a chave.");
+        // Optional: update animator or UI here
+    }
 
     // Orientação exclusiva
     private bool isFacingFront = true;

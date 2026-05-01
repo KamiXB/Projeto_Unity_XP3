@@ -28,6 +28,11 @@ public class Saida : MonoBehaviour
     [Tooltip("Duração que o texto ficará visível (segundos).")]
     public float textDuration = 3f;
 
+    [Header("Chave")]
+    [Tooltip("Se true, a saída requer uma chave para ser ativada")]
+    public bool requiresKey = false;
+
+
     bool activated = false;
 
     void Start()
@@ -45,6 +50,28 @@ public class Saida : MonoBehaviour
     {
         if (activated) return;
         if (!other.CompareTag(playerTag)) return;
+
+        // If key required, check player has it
+        if (requiresKey)
+        {
+            var mov = other.GetComponent<Moviment>();
+            bool hasKey = mov != null ? mov.HasKey : false;
+            if (!hasKey)
+            {
+                // show message or feedback
+                if (showText && uiText != null)
+                {
+                    uiText.text = "Você precisa de uma chave.";
+                    uiText.gameObject.SetActive(true);
+                    StartCoroutine(HideUITextAfter(2f));
+                }
+                else
+                {
+                    Debug.Log("Saida: jogador tentou ativar sem a chave.");
+                }
+                return;
+            }
+        }
 
         activated = true;
         StartCoroutine(HandleExit());
@@ -80,5 +107,11 @@ public class Saida : MonoBehaviour
             else
                 Debug.LogWarning("Saida: 'sceneName' não definido. Nenhuma cena será carregada.");
         }
+    }
+
+    private IEnumerator HideUITextAfter(float sec)
+    {
+        yield return new WaitForSeconds(sec);
+        if (uiText != null) uiText.gameObject.SetActive(false);
     }
 }
