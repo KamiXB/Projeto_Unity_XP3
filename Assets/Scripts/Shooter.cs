@@ -23,6 +23,30 @@ public class Shooter : MonoBehaviour
 #endif
 
     private float fireCooldown;
+    private float baseFireRate;
+
+    void Awake()
+    {
+        baseFireRate = fireRate;
+    }
+
+    // Public API to modify fire rate (multiplier >1 = faster fire). duration <=0 means permanent
+    public void ApplyFireRateMultiplier(float multiplier, float duration)
+    {
+        if (multiplier <= 0f) return;
+        fireRate *= multiplier;
+
+        if (duration > 0f)
+        {
+            StartCoroutine(FireRateDuration(multiplier, duration));
+        }
+    }
+
+    private System.Collections.IEnumerator FireRateDuration(float multiplier, float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        fireRate /= multiplier;
+    }
 
     void Update()
     {
