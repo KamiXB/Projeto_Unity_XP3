@@ -61,6 +61,13 @@ public class Parede : MonoBehaviour
         // If it's a projectile, destroy it (or let projectile handle it)
         if (isProjectile)
         {
+            // If projectile can pass through walls, ignore it
+            if (proj.CanPassThroughWalls)
+            {
+                Debug.Log("Parede: projectile can pass through walls, ignoring.");
+                return;
+            }
+
             if (destroyProjectiles)
             {
                 Destroy(proj.gameObject);

@@ -11,6 +11,7 @@ public class Projectile : MonoBehaviour
     private Rigidbody2D rb;
     private Collider2D col;
     private bool kinematicMove = false;
+    private bool canPassThroughWalls = false;
 
     [Header("Light Pulse")]
     [SerializeField] private GameObject pulsePrefab;
@@ -24,7 +25,8 @@ public class Projectile : MonoBehaviour
     [SerializeField] private bool pulseIsPulse = true;
 
     // Initialize the projectile after instantiation. Optionally pass the owner's collider
-    public void Initialize(Vector2 dir, float spd, float life, Collider2D owner = null)
+    // passThroughWalls: if true this projectile will ignore walls (Parede) when colliding
+    public void Initialize(Vector2 dir, float spd, float life, Collider2D owner = null, bool passThroughWalls = false)
     {
         direction = dir.normalized;
         speed = spd;
@@ -32,6 +34,7 @@ public class Projectile : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<Collider2D>();
+        canPassThroughWalls = passThroughWalls;
 
         if (col != null && owner != null)
         {
@@ -167,7 +170,45 @@ public class Projectile : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        if (other == null) return;
+
+        Debug.Log($"Projectile.OnTriggerEnter2D: '{name}' hit '{other.gameObject.name}' (layer={other.gameObject.layer}, tag={other.gameObject.tag}) canPassThrough={canPassThroughWalls}");
+
+        // If this projectile is configured to pass through walls, ignore collisions with Parede
+        if (canPassThroughWalls)
+        {
+            var parede = other.GetComponentInParent<Parede>();
+            if (parede != null)
+            {
+                Debug.Log("Projectile: passing through Parede (trigger)");
+                return;
+            }
+        }
+
         // Destroy on first collision
         Destroy(gameObject);
     }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision == null || collision.collider == null) return;
+
+        var other = collision.collider;
+        Debug.Log($"Projectile.OnCollisionEnter2D: '{name}' collided with '{other.gameObject.name}' (layer={other.gameObject.layer}, tag={other.gameObject.tag}) canPassThrough={canPassThroughWalls}");
+
+        if (canPassThroughWalls)
+        {
+            var parede = other.GetComponentInParent<Parede>();
+            if (parede != null)
+            {
+                Debug.Log("Projectile: passing through Parede (collision)");
+                return;
+            }
+        }
+
+        Destroy(gameObject);
+    }
+
+    // Public read-only access so other systems (like walls) can decide how to react
+    public bool CanPassThroughWalls => canPassThroughWalls;
 }

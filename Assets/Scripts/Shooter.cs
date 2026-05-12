@@ -24,10 +24,41 @@ public class Shooter : MonoBehaviour
 
     private float fireCooldown;
     private float baseFireRate;
+    [Header("Powerups")]
+    [Tooltip("If true bullets will pass through walls. Can be toggled in the inspector or at runtime via SetBulletPenetration().")]
+    [SerializeField] private bool bulletsPassThroughWalls = false;
+
+    // Public API to enable penetration for a duration (duration <=0 means permanent)
+    public void SetBulletPenetration(bool enabled, float duration = 0f)
+    {
+        bulletsPassThroughWalls = enabled;
+        if (enabled && duration > 0f)
+        {
+            StartCoroutine(ResetPenetrationAfter(duration));
+        }
+    }
+
+    private System.Collections.IEnumerator ResetPenetrationAfter(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        bulletsPassThroughWalls = false;
+    }
+
+    // Public property so other scripts (e.g. powerup collectors) can set this directly if desired.
+    public bool BulletsPassThroughWalls
+    {
+        get => bulletsPassThroughWalls;
+        set => bulletsPassThroughWalls = value;
+    }
 
     void Awake()
     {
         baseFireRate = fireRate;
+        // Apply any persistent powerups saved between lives
+        if (PlayerPowerups.Instance != null)
+        {
+            PlayerPowerups.Instance.ApplyToShooter(this);
+        }
     }
 
     // Public API to modify fire rate (multiplier >1 = faster fire). duration <=0 means permanent
@@ -113,7 +144,7 @@ public class Shooter : MonoBehaviour
             var projectile = proj.GetComponent<Projectile>();
             if (projectile != null)
             {
-                projectile.Initialize(dir, projectileSpeed, projectileLifetime, ownerCollider);
+                projectile.Initialize(dir, projectileSpeed, projectileLifetime, ownerCollider, bulletsPassThroughWalls);
             }
             else
             {
