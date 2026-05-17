@@ -5,6 +5,9 @@ public class LuzPlayer : MonoBehaviour
 {
     [Header("Referência da luz")]
     public Light2D luz;
+    [Header("Radius")]
+    [Tooltip("Base radius of the light. Can be modified by pickups at runtime.")]
+    public float baseRadius = 1f;
 
     [Header("Seguir")]
     [Tooltip("Transform do jogador a seguir. Se vazio, procura GameObject com tag 'Player'.")]
@@ -30,6 +33,17 @@ public class LuzPlayer : MonoBehaviour
         {
             var go = GameObject.FindWithTag("Player");
             if (go != null) target = go.transform;
+        }
+        // initialize radius from baseRadius if possible
+        if (luz != null)
+        {
+            luz.pointLightOuterRadius = baseRadius;
+        }
+
+        // Apply any persistent light radius powerups saved between lives
+        if (PlayerPowerups.Instance != null)
+        {
+            PlayerPowerups.Instance.ApplyToLuzPlayer(this);
         }
     }
 
@@ -60,5 +74,33 @@ public class LuzPlayer : MonoBehaviour
 
         // Keep the light's transform at the player's position + offset
         luz.transform.position = target.position + offset;
+    }
+
+    // Public API to apply a radius multiplier. duration <= 0 means permanent.
+    public void ApplyRadiusMultiplier(float multiplier, float duration)
+    {
+        if (luz == null) return;
+        if (multiplier <= 0f) return;
+
+        luz.pointLightOuterRadius *= multiplier;
+
+        if (duration > 0f)
+        {
+            StartCoroutine(RadiusDuration(multiplier, duration));
+        }
+    }
+
+    private System.Collections.IEnumerator RadiusDuration(float multiplier, float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        if (luz != null) luz.pointLightOuterRadius /= multiplier;
+    }
+
+    // Optional helper to set radius multiplicatively (used by persistent PlayerPowerups)
+    public void ApplyRadiusMultiplierPermanent(float multiplier)
+    {
+        if (luz == null) return;
+        if (multiplier <= 0f) return;
+        luz.pointLightOuterRadius *= multiplier;
     }
 }

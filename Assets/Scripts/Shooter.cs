@@ -65,6 +65,12 @@ public class Shooter : MonoBehaviour
         {
             PlayerPowerups.Instance.ApplyToMoviment(mov);
         }
+        // Apply light radius powerups to LuzPlayer if present on same GameObject
+        var luz = GetComponent<LuzPlayer>();
+        if (luz != null && PlayerPowerups.Instance != null)
+        {
+            PlayerPowerups.Instance.ApplyToLuzPlayer(luz);
+        }
     }
 
     // Public API to modify fire rate (multiplier >1 = faster fire). duration <=0 means permanent

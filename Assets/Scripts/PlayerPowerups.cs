@@ -31,11 +31,20 @@ public class PlayerPowerups : MonoBehaviour
     [SerializeField] private bool hasFireRateUpgrade = false;
     [SerializeField] private float fireRateMultiplier = 1f;
 
+    [SerializeField] private bool hasLightRadiusUpgrade = false;
+    [SerializeField] private float lightRadiusMultiplier = 1f;
+
     [SerializeField] private bool hasSpeedUpgrade = false;
     [SerializeField] private float speedMultiplier = 1f;
 
     public bool HasFireRateUpgrade => hasFireRateUpgrade;
     public float FireRateMultiplier => fireRateMultiplier;
+
+    public bool HasLightRadiusUpgrade => hasLightRadiusUpgrade;
+    public float LightRadiusMultiplier => lightRadiusMultiplier;
+
+    public bool HasSpeedUpgrade => hasSpeedUpgrade;
+    public float SpeedMultiplier => speedMultiplier;
 
     public void SetFireRateUpgrade(float multiplier)
     {
@@ -44,8 +53,12 @@ public class PlayerPowerups : MonoBehaviour
         Debug.Log($"PlayerPowerups: fire rate upgrade saved (x{multiplier})");
     }
 
-    public bool HasSpeedUpgrade => hasSpeedUpgrade;
-    public float SpeedMultiplier => speedMultiplier;
+    public void SetLightRadiusUpgrade(float multiplier)
+    {
+        hasLightRadiusUpgrade = true;
+        lightRadiusMultiplier = multiplier;
+        Debug.Log($"PlayerPowerups: light radius upgrade saved (x{multiplier})");
+    }
 
     public void SetSpeedUpgrade(float multiplier)
     {
@@ -77,6 +90,19 @@ public class PlayerPowerups : MonoBehaviour
         {
             method.Invoke(movimentComponent, new object[] { speedMultiplier, 0f });
             Debug.Log($"PlayerPowerups: applied persistent speed x{speedMultiplier} to '{movimentComponent.gameObject.name}' (via {movimentComponent.GetType().Name})");
+        }
+    }
+
+    public void ApplyToLuzPlayer(Component luzComponent)
+    {
+        if (luzComponent == null) return;
+        if (!hasLightRadiusUpgrade || lightRadiusMultiplier == 1f) return;
+
+        var method = luzComponent.GetType().GetMethod("ApplyRadiusMultiplier", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic);
+        if (method != null)
+        {
+            method.Invoke(luzComponent, new object[] { lightRadiusMultiplier, 0f });
+            Debug.Log($"PlayerPowerups: applied persistent light radius x{lightRadiusMultiplier} to '{luzComponent.gameObject.name}' (via {luzComponent.GetType().Name})");
         }
     }
 }
