@@ -57,6 +57,29 @@ public class Moviment : MonoBehaviour
         baseSpeed = speed;
     }
 
+    // Increase the player's max health. If duration > 0 the increase is temporary and will be reverted.
+    public void IncreaseMaxHealth(int amount, float duration = 0f)
+    {
+        if (amount <= 0) return;
+
+        maxHealth += amount;
+        currentHealth += amount;
+        Debug.Log($"Moviment: Increased maxHealth by {amount}, new maxHealth={maxHealth}, currentHealth={currentHealth}");
+
+        if (duration > 0f)
+        {
+            StartCoroutine(MaxHealthDuration(amount, duration));
+        }
+    }
+
+    private System.Collections.IEnumerator MaxHealthDuration(int amount, float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        maxHealth -= amount;
+        if (currentHealth > maxHealth) currentHealth = maxHealth;
+        Debug.Log($"Moviment: Reverted maxHealth by {amount}, new maxHealth={maxHealth}");
+    }
+
     // Public API to apply a speed multiplier. duration <= 0 means permanent.
     public void ApplySpeedMultiplier(float multiplier, float duration)
     {
