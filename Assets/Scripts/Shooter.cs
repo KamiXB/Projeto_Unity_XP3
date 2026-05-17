@@ -59,6 +59,12 @@ public class Shooter : MonoBehaviour
         {
             PlayerPowerups.Instance.ApplyToShooter(this);
         }
+        // Also apply speed powerups to Moviment if present on same GameObject
+        var mov = GetComponent<Moviment>();
+        if (mov != null && PlayerPowerups.Instance != null)
+        {
+            PlayerPowerups.Instance.ApplyToMoviment(mov);
+        }
     }
 
     // Public API to modify fire rate (multiplier >1 = faster fire). duration <=0 means permanent

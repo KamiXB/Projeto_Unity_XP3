@@ -31,6 +31,9 @@ public class PlayerPowerups : MonoBehaviour
     [SerializeField] private bool hasFireRateUpgrade = false;
     [SerializeField] private float fireRateMultiplier = 1f;
 
+    [SerializeField] private bool hasSpeedUpgrade = false;
+    [SerializeField] private float speedMultiplier = 1f;
+
     public bool HasFireRateUpgrade => hasFireRateUpgrade;
     public float FireRateMultiplier => fireRateMultiplier;
 
@@ -39,6 +42,16 @@ public class PlayerPowerups : MonoBehaviour
         hasFireRateUpgrade = true;
         fireRateMultiplier = multiplier;
         Debug.Log($"PlayerPowerups: fire rate upgrade saved (x{multiplier})");
+    }
+
+    public bool HasSpeedUpgrade => hasSpeedUpgrade;
+    public float SpeedMultiplier => speedMultiplier;
+
+    public void SetSpeedUpgrade(float multiplier)
+    {
+        hasSpeedUpgrade = true;
+        speedMultiplier = multiplier;
+        Debug.Log($"PlayerPowerups: speed upgrade saved (x{multiplier})");
     }
 
     public void ApplyToShooter(Component shooterComponent)
@@ -51,6 +64,19 @@ public class PlayerPowerups : MonoBehaviour
         {
             method.Invoke(shooterComponent, new object[] { fireRateMultiplier, 0f });
             Debug.Log($"PlayerPowerups: applied persistent fire rate x{fireRateMultiplier} to '{shooterComponent.gameObject.name}' (via {shooterComponent.GetType().Name})");
+        }
+    }
+
+    public void ApplyToMoviment(Component movimentComponent)
+    {
+        if (movimentComponent == null) return;
+        if (!hasSpeedUpgrade || speedMultiplier == 1f) return;
+
+        var method = movimentComponent.GetType().GetMethod("ApplySpeedMultiplier", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.NonPublic);
+        if (method != null)
+        {
+            method.Invoke(movimentComponent, new object[] { speedMultiplier, 0f });
+            Debug.Log($"PlayerPowerups: applied persistent speed x{speedMultiplier} to '{movimentComponent.gameObject.name}' (via {movimentComponent.GetType().Name})");
         }
     }
 }

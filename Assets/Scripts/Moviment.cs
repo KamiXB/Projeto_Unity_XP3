@@ -11,6 +11,9 @@ public class Moviment : MonoBehaviour
 {
     [SerializeField] private float speed = 5f;
 
+    // Allow runtime modification via powerups
+    private float baseSpeed;
+
     private Rigidbody2D rb2d;
     private Vector2 movement;
     private Vector2 lastMove;
@@ -51,6 +54,25 @@ public class Moviment : MonoBehaviour
         SyncAnimatorFacing();
 
         currentHealth = maxHealth;
+        baseSpeed = speed;
+    }
+
+    // Public API to apply a speed multiplier. duration <= 0 means permanent.
+    public void ApplySpeedMultiplier(float multiplier, float duration)
+    {
+        if (multiplier <= 0f) return;
+        speed *= multiplier;
+
+        if (duration > 0f)
+        {
+            StartCoroutine(SpeedDuration(multiplier, duration));
+        }
+    }
+
+    private System.Collections.IEnumerator SpeedDuration(float multiplier, float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        speed /= multiplier;
     }
 
 #if ENABLE_INPUT_SYSTEM
