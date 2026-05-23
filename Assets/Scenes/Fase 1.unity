@@ -780,8 +780,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   playerTag: Player
-  loadScene: 0
-  sceneName: 
+  loadScene: 1
+  sceneName: Fase 2
   sceneDelay: 1
   showText: 1
   uiText: {fileID: 71028340}
@@ -6309,11 +6309,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8728422243854379098, guid: 8f7e6b9c9f54e3b48830b9c681be93df, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.84
+      value: 8.74
       objectReference: {fileID: 0}
     - target: {fileID: 8728422243854379098, guid: 8f7e6b9c9f54e3b48830b9c681be93df, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.96
+      value: -44.129997
       objectReference: {fileID: 0}
     - target: {fileID: 8728422243854379098, guid: 8f7e6b9c9f54e3b48830b9c681be93df, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6351,6 +6351,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthPickup
       objectReference: {fileID: 0}
+    - target: {fileID: 8912177911838840838, guid: 8f7e6b9c9f54e3b48830b9c681be93df, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6368,13 +6372,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: LightRadiusPickup
       objectReference: {fileID: 0}
+    - target: {fileID: 5656646128269599147, guid: 2ec08aa88651eaa4c91ff402630f85aa, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7583292153660870427, guid: 2ec08aa88651eaa4c91ff402630f85aa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.06
+      value: 6.96
       objectReference: {fileID: 0}
     - target: {fileID: 7583292153660870427, guid: 2ec08aa88651eaa4c91ff402630f85aa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.84
+      value: -44.01
       objectReference: {fileID: 0}
     - target: {fileID: 7583292153660870427, guid: 2ec08aa88651eaa4c91ff402630f85aa, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6425,13 +6433,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: SpeedPickup
       objectReference: {fileID: 0}
+    - target: {fileID: 752947647384604579, guid: 7b95f47d05e5ad547973d9a1d658a54d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4347574752782920128, guid: 7b95f47d05e5ad547973d9a1d658a54d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.94
+      value: 10.839999
       objectReference: {fileID: 0}
     - target: {fileID: 4347574752782920128, guid: 7b95f47d05e5ad547973d9a1d658a54d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.91
+      value: -44.079998
       objectReference: {fileID: 0}
     - target: {fileID: 4347574752782920128, guid: 7b95f47d05e5ad547973d9a1d658a54d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6543,13 +6555,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: FireRatePickup
       objectReference: {fileID: 0}
+    - target: {fileID: 2411366042625014892, guid: 06d9c7c4f7e3eb0429605cb206dc4eb1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5112353044652618070, guid: 06d9c7c4f7e3eb0429605cb206dc4eb1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.1
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5112353044652618070, guid: 06d9c7c4f7e3eb0429605cb206dc4eb1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.99
+      value: -44.159996
       objectReference: {fileID: 0}
     - target: {fileID: 5112353044652618070, guid: 06d9c7c4f7e3eb0429605cb206dc4eb1, type: 3}
       propertyPath: m_LocalPosition.z
