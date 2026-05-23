@@ -22,11 +22,17 @@ public class PhaseSpawnGroup : MonoBehaviour
     // Called by StageManager when this group's phase starts
     public void SpawnRandom()
     {
+        SpawnWithPrefab(prefabToSpawn);
+    }
+
+    // Spawn the provided prefab at a random point from spawnPoints
+    public void SpawnWithPrefab(GameObject prefab)
+    {
         ClearSpawn();
 
-        if (prefabToSpawn == null)
+        if (prefab == null)
         {
-            Debug.LogWarning($"PhaseSpawnGroup[{name}]: no prefab assigned to spawn.");
+            Debug.LogWarning($"PhaseSpawnGroup[{name}]: SpawnWithPrefab called with null prefab.");
             return;
         }
 
@@ -44,13 +50,13 @@ public class PhaseSpawnGroup : MonoBehaviour
             return;
         }
 
-        currentInstance = Instantiate(prefabToSpawn, point.position, point.rotation);
+        currentInstance = Instantiate(prefab, point.position, point.rotation);
         if (parentSpawnToGroup && currentInstance != null)
         {
             currentInstance.transform.SetParent(this.transform, true);
         }
 
-        Debug.Log($"PhaseSpawnGroup[{name}] (phase {phaseIndex}) spawned '{prefabToSpawn.name}' at '{point.name}' (index={idx}).");
+        Debug.Log($"PhaseSpawnGroup[{name}] (phase {phaseIndex}) spawned '{prefab.name}' at '{point.name}' (index={idx}).");
     }
 
     // Destroy current spawned instance (if any)

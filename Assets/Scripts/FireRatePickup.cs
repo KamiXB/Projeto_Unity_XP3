@@ -73,6 +73,12 @@ public class FireRatePickup : MonoBehaviour
             Instantiate(pickupEffect, transform.position, Quaternion.identity);
         }
 
+        // Show UI message
+        if (PickupUI.Instance != null)
+        {
+            PickupUI.Instance.ShowMessage($"Fire Rate x{fireRateMultiplier}");
+        }
+
         if (pickupSound != null)
         {
             var camPos = Camera.main != null ? Camera.main.transform.position : transform.position;

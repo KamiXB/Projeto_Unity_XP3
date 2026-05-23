@@ -98,6 +98,11 @@ public class SpeedPickup : MonoBehaviour
             AudioSource.PlayClipAtPoint(pickupSound, camPos);
         }
 
+        if (PickupUI.Instance != null)
+        {
+            PickupUI.Instance.ShowMessage($"Speed x{speedMultiplier}");
+        }
+
         if (destroyOnCollect) Destroy(gameObject);
         collected = false;
     }

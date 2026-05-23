@@ -116,6 +116,11 @@ public class LightRadiusPickup : MonoBehaviour
             AudioSource.PlayClipAtPoint(pickupSound, camPos);
         }
 
+        if (PickupUI.Instance != null)
+        {
+            PickupUI.Instance.ShowMessage($"Light Radius x{radiusMultiplier}");
+        }
+
         if (destroyOnCollect) Destroy(gameObject);
         collected = false;
     }
