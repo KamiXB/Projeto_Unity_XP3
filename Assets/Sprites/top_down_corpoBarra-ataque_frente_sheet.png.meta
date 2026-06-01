@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: ff79bb9d9fa60b944b90652944b1cc5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2856161508488416787
+    second: top_down_corpoBarra-ataque_frente_sheet_0
+  - first:
+      213: -9094579747793290537
+    second: top_down_corpoBarra-ataque_frente_sheet_1
+  - first:
+      213: -7461012656419716202
+    second: top_down_corpoBarra-ataque_frente_sheet_2
+  - first:
+      213: -7018320777481541177
+    second: top_down_corpoBarra-ataque_frente_sheet_3
+  - first:
+      213: 8597261299448720272
+    second: top_down_corpoBarra-ataque_frente_sheet_4
+  - first:
+      213: -8006692905749416743
+    second: top_down_corpoBarra-ataque_frente_sheet_5
+  - first:
+      213: -6277732478093522006
+    second: top_down_corpoBarra-ataque_frente_sheet_6
+  - first:
+      213: -1164680291591456318
+    second: top_down_corpoBarra-ataque_frente_sheet_7
+  - first:
+      213: 5567098303212748266
+    second: top_down_corpoBarra-ataque_frente_sheet_8
+  - first:
+      213: -8172353126066473087
+    second: top_down_corpoBarra-ataque_frente_sheet_9
+  - first:
+      213: 3657799146796082737
+    second: top_down_corpoBarra-ataque_frente_sheet_10
+  - first:
+      213: -7710228513635238185
+    second: top_down_corpoBarra-ataque_frente_sheet_11
+  - first:
+      213: 263446374763752613
+    second: top_down_corpoBarra-ataque_frente_sheet_12
+  - first:
+      213: 6276723790056735246
+    second: top_down_corpoBarra-ataque_frente_sheet_13
+  - first:
+      213: 8503192057059740985
+    second: top_down_corpoBarra-ataque_frente_sheet_14
+  - first:
+      213: -3483538886519250971
+    second: top_down_corpoBarra-ataque_frente_sheet_15
+  - first:
+      213: 4643460257784526018
+    second: top_down_corpoBarra-ataque_frente_sheet_16
+  - first:
+      213: 7584620701707355366
+    second: top_down_corpoBarra-ataque_frente_sheet_17
+  - first:
+      213: -7151181856513122287
+    second: top_down_corpoBarra-ataque_frente_sheet_18
+  - first:
+      213: 1482211741633058665
+    second: top_down_corpoBarra-ataque_frente_sheet_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e889662cf13a720800000000000000
+      internalID: 2856161508488416787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dab15f87ef89c180800000000000000
+      internalID: -9094579747793290537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693c865e488257890800000000000000
+      internalID: -7461012656419716202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c92872007ae99e90800000000000000
+      internalID: -7018320777481541177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09baad20a9b9f4770800000000000000
+      internalID: 8597261299448720272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d47a27393382e090800000000000000
+      internalID: -8006692905749416743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab8d40729301e8a0800000000000000
+      internalID: -6277732478093522006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9face027936dfe0800000000000000
+      internalID: -1164680291591456318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 0
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedfca8396e424d40800000000000000
+      internalID: 5567098303212748266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18731cd7128f59e80800000000000000
+      internalID: -8172353126066473087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136e184b1fc13c230800000000000000
+      internalID: 3657799146796082737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 0
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7defea37404cff490800000000000000
+      internalID: -7710228513635238185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 0
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac68210513f7a300800000000000000
+      internalID: 263446374763752613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 0
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02439318076b1750800000000000000
+      internalID: 6276723790056735246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 0
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d08f1cf18610670800000000000000
+      internalID: 8503192057059740985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 0
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef92cbd6dbf7afc0800000000000000
+      internalID: -3483538886519250971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 0
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4f3e99082e07040800000000000000
+      internalID: 4643460257784526018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 0
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e44759d75cf14960800000000000000
+      internalID: 7584620701707355366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 0
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11021567df5e1cc90800000000000000
+      internalID: -7151181856513122287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_frente_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 0
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96793f5d9bfd19410800000000000000
+      internalID: 1482211741633058665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      top_down_corpoBarra-ataque_frente_sheet_0: 2856161508488416787
+      top_down_corpoBarra-ataque_frente_sheet_1: -9094579747793290537
+      top_down_corpoBarra-ataque_frente_sheet_10: 3657799146796082737
+      top_down_corpoBarra-ataque_frente_sheet_11: -7710228513635238185
+      top_down_corpoBarra-ataque_frente_sheet_12: 263446374763752613
+      top_down_corpoBarra-ataque_frente_sheet_13: 6276723790056735246
+      top_down_corpoBarra-ataque_frente_sheet_14: 8503192057059740985
+      top_down_corpoBarra-ataque_frente_sheet_15: -3483538886519250971
+      top_down_corpoBarra-ataque_frente_sheet_16: 4643460257784526018
+      top_down_corpoBarra-ataque_frente_sheet_17: 7584620701707355366
+      top_down_corpoBarra-ataque_frente_sheet_18: -7151181856513122287
+      top_down_corpoBarra-ataque_frente_sheet_19: 1482211741633058665
+      top_down_corpoBarra-ataque_frente_sheet_2: -7461012656419716202
+      top_down_corpoBarra-ataque_frente_sheet_3: -7018320777481541177
+      top_down_corpoBarra-ataque_frente_sheet_4: 8597261299448720272
+      top_down_corpoBarra-ataque_frente_sheet_5: -8006692905749416743
+      top_down_corpoBarra-ataque_frente_sheet_6: -6277732478093522006
+      top_down_corpoBarra-ataque_frente_sheet_7: -1164680291591456318
+      top_down_corpoBarra-ataque_frente_sheet_8: 5567098303212748266
+      top_down_corpoBarra-ataque_frente_sheet_9: -8172353126066473087
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

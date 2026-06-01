@@ -956,7 +956,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &431996022
 Transform:
   m_ObjectHideFlags: 0
@@ -988,7 +988,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &476242295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2017,7 +2017,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1178775349
 Transform:
   m_ObjectHideFlags: 0
@@ -2912,7 +2912,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1715900748
 Transform:
   m_ObjectHideFlags: 0
@@ -3869,8 +3869,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 159564683}
   - {fileID: 712421996}
-  - {fileID: 1986543937}
-  - {fileID: 2021735623}
   - {fileID: 512568482}
   - {fileID: 1707631705}
   - {fileID: 1548572317}
@@ -3878,15 +3876,11 @@ SceneRoots:
   - {fileID: 62847198}
   - {fileID: 1971150498}
   - {fileID: 683737974}
-  - {fileID: 1995423898}
-  - {fileID: 760132147}
   - {fileID: 1636475307}
   - {fileID: 2124376088}
   - {fileID: 588202381}
   - {fileID: 1746598164}
-  - {fileID: 148984928}
   - {fileID: 770923634}
-  - {fileID: 476242296}
   - {fileID: 388920437}
   - {fileID: 1531753146}
   - {fileID: 910500520}
@@ -3898,3 +3892,9 @@ SceneRoots:
   - {fileID: 1715900748}
   - {fileID: 1178775349}
   - {fileID: 431996022}
+  - {fileID: 1986543937}
+  - {fileID: 2021735623}
+  - {fileID: 1995423898}
+  - {fileID: 760132147}
+  - {fileID: 148984928}
+  - {fileID: 476242296}

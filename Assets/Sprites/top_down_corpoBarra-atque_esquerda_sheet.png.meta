@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 368cabc215904304f85bf220aba08e09
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7828268185916539620
+    second: top_down_corpoBarra-atque_esquerda_sheet_0
+  - first:
+      213: -5857478141031381484
+    second: top_down_corpoBarra-atque_esquerda_sheet_1
+  - first:
+      213: 4453386414580023158
+    second: top_down_corpoBarra-atque_esquerda_sheet_2
+  - first:
+      213: -7689279478445692336
+    second: top_down_corpoBarra-atque_esquerda_sheet_3
+  - first:
+      213: -3759077969098127474
+    second: top_down_corpoBarra-atque_esquerda_sheet_4
+  - first:
+      213: 797148981310260864
+    second: top_down_corpoBarra-atque_esquerda_sheet_5
+  - first:
+      213: -575281291932918265
+    second: top_down_corpoBarra-atque_esquerda_sheet_6
+  - first:
+      213: -7678314804307707406
+    second: top_down_corpoBarra-atque_esquerda_sheet_7
+  - first:
+      213: -162813092844597186
+    second: top_down_corpoBarra-atque_esquerda_sheet_8
+  - first:
+      213: -9030458854598087903
+    second: top_down_corpoBarra-atque_esquerda_sheet_9
+  - first:
+      213: 5211306777562279743
+    second: top_down_corpoBarra-atque_esquerda_sheet_10
+  - first:
+      213: -1834001574979339268
+    second: top_down_corpoBarra-atque_esquerda_sheet_11
+  - first:
+      213: -7533021432340631706
+    second: top_down_corpoBarra-atque_esquerda_sheet_12
+  - first:
+      213: -410870050323902839
+    second: top_down_corpoBarra-atque_esquerda_sheet_13
+  - first:
+      213: -8377931341648716155
+    second: top_down_corpoBarra-atque_esquerda_sheet_14
+  - first:
+      213: -3579515478098637989
+    second: top_down_corpoBarra-atque_esquerda_sheet_15
+  - first:
+      213: -4098400217470654968
+    second: top_down_corpoBarra-atque_esquerda_sheet_16
+  - first:
+      213: -3389414867420301100
+    second: top_down_corpoBarra-atque_esquerda_sheet_17
+  - first:
+      213: 8170871462574205052
+    second: top_down_corpoBarra-atque_esquerda_sheet_18
+  - first:
+      213: 2359976285175889201
+    second: top_down_corpoBarra-atque_esquerda_sheet_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1df3f39f876c5390800000000000000
+      internalID: -7828268185916539620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416853c3aae06bea0800000000000000
+      internalID: -5857478141031381484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fb798595b9dcd30800000000000000
+      internalID: 4453386414580023158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a2b8ccd013a4590800000000000000
+      internalID: -7689279478445692336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87c8e8e08215dbc0800000000000000
+      internalID: -3759077969098127474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086001866ca001b00800000000000000
+      internalID: 797148981310260864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e196486b03408f0800000000000000
+      internalID: -575281291932918265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 0
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9bd9fed55217590800000000000000
+      internalID: -7678314804307707406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 0
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e30173cca529dbdf0800000000000000
+      internalID: -162813092844597186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12b66e4648d5da280800000000000000
+      internalID: -9030458854598087903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 0
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f6f2c47e7425840800000000000000
+      internalID: 5211306777562279743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb79d5d8415c86e0800000000000000
+      internalID: -1834001574979339268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 0
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66faeef3be4557790800000000000000
+      internalID: -7533021432340631706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 0
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ec899bddb4c4af0800000000000000
+      internalID: -410870050323902839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 0
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e9a6c35db9bbb80800000000000000
+      internalID: -8377931341648716155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b0be343a1035ec0800000000000000
+      internalID: -3579515478098637989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806274a67be8f17c0800000000000000
+      internalID: -4098400217470654968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d83cfec22166f0d0800000000000000
+      internalID: -3389414867420301100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78ac18dd44c46170800000000000000
+      internalID: 8170871462574205052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-atque_esquerda_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 0
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d314c7de150c020800000000000000
+      internalID: 2359976285175889201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      top_down_corpoBarra-atque_esquerda_sheet_0: -7828268185916539620
+      top_down_corpoBarra-atque_esquerda_sheet_1: -5857478141031381484
+      top_down_corpoBarra-atque_esquerda_sheet_10: 5211306777562279743
+      top_down_corpoBarra-atque_esquerda_sheet_11: -1834001574979339268
+      top_down_corpoBarra-atque_esquerda_sheet_12: -7533021432340631706
+      top_down_corpoBarra-atque_esquerda_sheet_13: -410870050323902839
+      top_down_corpoBarra-atque_esquerda_sheet_14: -8377931341648716155
+      top_down_corpoBarra-atque_esquerda_sheet_15: -3579515478098637989
+      top_down_corpoBarra-atque_esquerda_sheet_16: -4098400217470654968
+      top_down_corpoBarra-atque_esquerda_sheet_17: -3389414867420301100
+      top_down_corpoBarra-atque_esquerda_sheet_18: 8170871462574205052
+      top_down_corpoBarra-atque_esquerda_sheet_19: 2359976285175889201
+      top_down_corpoBarra-atque_esquerda_sheet_2: 4453386414580023158
+      top_down_corpoBarra-atque_esquerda_sheet_3: -7689279478445692336
+      top_down_corpoBarra-atque_esquerda_sheet_4: -3759077969098127474
+      top_down_corpoBarra-atque_esquerda_sheet_5: 797148981310260864
+      top_down_corpoBarra-atque_esquerda_sheet_6: -575281291932918265
+      top_down_corpoBarra-atque_esquerda_sheet_7: -7678314804307707406
+      top_down_corpoBarra-atque_esquerda_sheet_8: -162813092844597186
+      top_down_corpoBarra-atque_esquerda_sheet_9: -9030458854598087903
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

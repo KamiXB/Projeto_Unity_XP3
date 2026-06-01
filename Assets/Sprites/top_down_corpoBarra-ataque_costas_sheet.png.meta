@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: e5fd60fa525fb9a4caf2d96710975b0f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8399432325387242012
+    second: top_down_corpoBarra-ataque_costas_sheet_0
+  - first:
+      213: 9001779333406248287
+    second: top_down_corpoBarra-ataque_costas_sheet_1
+  - first:
+      213: -4984512463225679971
+    second: top_down_corpoBarra-ataque_costas_sheet_2
+  - first:
+      213: -489975139721989141
+    second: top_down_corpoBarra-ataque_costas_sheet_3
+  - first:
+      213: -122303596620582497
+    second: top_down_corpoBarra-ataque_costas_sheet_4
+  - first:
+      213: 2976790490718273049
+    second: top_down_corpoBarra-ataque_costas_sheet_5
+  - first:
+      213: -9017411432699778934
+    second: top_down_corpoBarra-ataque_costas_sheet_6
+  - first:
+      213: 5202582066507269996
+    second: top_down_corpoBarra-ataque_costas_sheet_7
+  - first:
+      213: -2020783743721637069
+    second: top_down_corpoBarra-ataque_costas_sheet_8
+  - first:
+      213: -5438857074720107621
+    second: top_down_corpoBarra-ataque_costas_sheet_9
+  - first:
+      213: -2576533943312627934
+    second: top_down_corpoBarra-ataque_costas_sheet_10
+  - first:
+      213: -7619543300009620829
+    second: top_down_corpoBarra-ataque_costas_sheet_11
+  - first:
+      213: -3789039005949846943
+    second: top_down_corpoBarra-ataque_costas_sheet_12
+  - first:
+      213: 4527512871954954853
+    second: top_down_corpoBarra-ataque_costas_sheet_13
+  - first:
+      213: -5545248307346240418
+    second: top_down_corpoBarra-ataque_costas_sheet_14
+  - first:
+      213: -5355958018535731256
+    second: top_down_corpoBarra-ataque_costas_sheet_15
+  - first:
+      213: 2048874373852395682
+    second: top_down_corpoBarra-ataque_costas_sheet_16
+  - first:
+      213: -1139248048349782831
+    second: top_down_corpoBarra-ataque_costas_sheet_17
+  - first:
+      213: -3295374389667812806
+    second: top_down_corpoBarra-ataque_costas_sheet_18
+  - first:
+      213: -5350659227939652572
+    second: top_down_corpoBarra-ataque_costas_sheet_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e53c5a5dc83f6b80800000000000000
+      internalID: -8399432325387242012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5dc12a3c9ebcec70800000000000000
+      internalID: 9001779333406248287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f0de2e25473dab0800000000000000
+      internalID: -4984512463225679971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be33918d4324339f0800000000000000
+      internalID: -489975139721989141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 0
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f917da0e68d7d4ef0800000000000000
+      internalID: -122303596620582497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ef50afd2faf4920800000000000000
+      internalID: 2976790490718273049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 0
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8822680418bbd280800000000000000
+      internalID: -9017411432699778934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 0
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67cbf433d8433840800000000000000
+      internalID: 5202582066507269996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 0
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b769344ebb4f3e0800000000000000
+      internalID: -2020783743721637069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 0
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93103d8e4c4584b0800000000000000
+      internalID: -5438857074720107621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 0
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2274d1597005e3cd0800000000000000
+      internalID: -2576533943312627934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 0
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa083c1db1f14690800000000000000
+      internalID: -7619543300009620829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 0
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a924a6911aa6bc0800000000000000
+      internalID: -3789039005949846943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 0
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a32e028f4f4de30800000000000000
+      internalID: 4527512871954954853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 0
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c8a416b025b03b0800000000000000
+      internalID: -5545248307346240418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 0
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfc5492f80dba5b0800000000000000
+      internalID: -5355958018535731256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 0
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a87fda33601f6c10800000000000000
+      internalID: 2048874373852395682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 0
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dcdd0f9fe39030f0800000000000000
+      internalID: -1139248048349782831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 0
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a2ee5c37a7442d0800000000000000
+      internalID: -3295374389667812806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: top_down_corpoBarra-ataque_costas_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 0
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42cbd7cf7c3aeb5b0800000000000000
+      internalID: -5350659227939652572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      top_down_corpoBarra-ataque_costas_sheet_0: -8399432325387242012
+      top_down_corpoBarra-ataque_costas_sheet_1: 9001779333406248287
+      top_down_corpoBarra-ataque_costas_sheet_10: -2576533943312627934
+      top_down_corpoBarra-ataque_costas_sheet_11: -7619543300009620829
+      top_down_corpoBarra-ataque_costas_sheet_12: -3789039005949846943
+      top_down_corpoBarra-ataque_costas_sheet_13: 4527512871954954853
+      top_down_corpoBarra-ataque_costas_sheet_14: -5545248307346240418
+      top_down_corpoBarra-ataque_costas_sheet_15: -5355958018535731256
+      top_down_corpoBarra-ataque_costas_sheet_16: 2048874373852395682
+      top_down_corpoBarra-ataque_costas_sheet_17: -1139248048349782831
+      top_down_corpoBarra-ataque_costas_sheet_18: -3295374389667812806
+      top_down_corpoBarra-ataque_costas_sheet_19: -5350659227939652572
+      top_down_corpoBarra-ataque_costas_sheet_2: -4984512463225679971
+      top_down_corpoBarra-ataque_costas_sheet_3: -489975139721989141
+      top_down_corpoBarra-ataque_costas_sheet_4: -122303596620582497
+      top_down_corpoBarra-ataque_costas_sheet_5: 2976790490718273049
+      top_down_corpoBarra-ataque_costas_sheet_6: -9017411432699778934
+      top_down_corpoBarra-ataque_costas_sheet_7: 5202582066507269996
+      top_down_corpoBarra-ataque_costas_sheet_8: -2020783743721637069
+      top_down_corpoBarra-ataque_costas_sheet_9: -5438857074720107621
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
