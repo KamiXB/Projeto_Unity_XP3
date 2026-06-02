@@ -32,6 +32,8 @@ public class InimigoBase : MonoBehaviour
 
     [Header("Physics Movement")]
     [SerializeField] private float skinWidth = 0.02f;
+    [Tooltip("Maximum allowed movement (world units) per frame to avoid runaway physics")]
+    [SerializeField] private float maxMovePerFrame = 5f;
 
     // Animator / facing
     private Animator animator;
@@ -52,6 +54,14 @@ public class InimigoBase : MonoBehaviour
         {
             Debug.LogWarning($"Inimigo '{name}' requires a Rigidbody2D for physics movement.");
         }
+        else
+        {
+            // Defensive: ensure enemies aren't affected by gravity and cannot rotate
+            rb.gravityScale = 0f;
+            rb.freezeRotation = true;
+            // prefer continuous collision detection for fast moving enemies
+            rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+        }
         if (col == null)
         {
             Debug.LogWarning($"Inimigo '{name}' should have a Collider2D to interact with walls.");
@@ -59,6 +69,13 @@ public class InimigoBase : MonoBehaviour
 
         SyncAnimatorFacing();
     }
+
+    // Defensive helper: validate vector doesn't contain NaN/Infinity
+    private bool IsValidVector(Vector2 v)
+    {
+        return !(float.IsNaN(v.x) || float.IsNaN(v.y) || float.IsInfinity(v.x) || float.IsInfinity(v.y));
+    }
+
 
     void Update()
     {
@@ -150,6 +167,11 @@ public class InimigoBase : MonoBehaviour
     void PerseguirPlayer()
     {
         Vector2 direcao = (player.position - transform.position).normalized;
+        if (!IsValidVector(direcao))
+        {
+            Debug.LogWarning($"Inimigo '{name}': invalid chase direction, aborting.");
+            return;
+        }
         SetFacingFromDirection(direcao);
         isMoving = true;
         MoveWithPhysics(direcao * velocidade * Time.deltaTime);
@@ -158,6 +180,11 @@ public class InimigoBase : MonoBehaviour
     void FugirDaLuz()
     {
         Vector2 direcao = (transform.position - (Vector3)posicaoDaLuz).normalized;
+        if (!IsValidVector(direcao))
+        {
+            Debug.LogWarning($"Inimigo '{name}': invalid flee direction, aborting.");
+            return;
+        }
         SetFacingFromDirection(direcao);
         isMoving = true;
         MoveWithPhysics(direcao * velocidade * Time.deltaTime);
@@ -166,6 +193,11 @@ public class InimigoBase : MonoBehaviour
     void IrParaLuz()
     {
         Vector2 direcao = (posicaoDaLuz - (Vector2)transform.position).normalized;
+        if (!IsValidVector(direcao))
+        {
+            Debug.LogWarning($"Inimigo '{name}': invalid move-to-light direction, aborting.");
+            return;
+        }
         SetFacingFromDirection(direcao);
         isMoving = true;
         MoveWithPhysics(direcao * velocidade * Time.deltaTime);
@@ -174,6 +206,17 @@ public class InimigoBase : MonoBehaviour
     // Try to move using Rigidbody2D and respect collisions. If blocked, try sliding.
     private void MoveWithPhysics(Vector2 displacement)
     {
+        // defensive clamp
+        if (!IsValidVector(displacement))
+        {
+            Debug.LogWarning($"Inimigo '{name}': invalid displacement vector detected, skipping movement.");
+            return;
+        }
+
+        if (displacement.magnitude > maxMovePerFrame)
+        {
+            displacement = displacement.normalized * maxMovePerFrame;
+        }
         if (rb == null)
         {
             // fallback to transform if no rigidbody
