@@ -23,10 +23,12 @@ public class Key : MonoBehaviour
         if (mov != null)
         {
             mov.CollectKey();
+            Debug.Log($"Key: player '{other.gameObject.name}' collected a key.");
         }
         else
         {
             other.SendMessage("CollectKey", SendMessageOptions.DontRequireReceiver);
+            Debug.Log($"Key: sent CollectKey to '{other.gameObject.name}' via SendMessage.");
         }
 
         if (destroyOnCollect) Destroy(gameObject);

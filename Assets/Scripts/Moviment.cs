@@ -32,7 +32,7 @@ public class Moviment : MonoBehaviour
     public void CollectKey()
     {
         hasKey = true;
-        Debug.Log($"Player '{name}' coletou a chave.");
+        Debug.Log($"Player '{name}' collected the key.");
         // Optional: update animator or UI here
     }
 
