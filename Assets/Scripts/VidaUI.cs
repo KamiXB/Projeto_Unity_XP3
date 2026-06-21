@@ -8,7 +8,9 @@ public class VidaUI : MonoBehaviour
     [SerializeField] private Sprite[] heartSprites = new Sprite[4];
 
     private Image img;
-    private Moviment playerMov;
+    [Tooltip("Assign the player's Moviment in the Inspector to avoid automatic search issues.")]
+    [SerializeField] private Moviment playerMov;
+    private int lastHp = -1;
 
     void Awake()
     {
@@ -18,29 +20,60 @@ public class VidaUI : MonoBehaviour
 
     void Start()
     {
-        // try auto-find player Moviment
-        var mov = FindObjectOfType<Moviment>();
-        if (mov != null) playerMov = mov;
-        else Debug.LogWarning("VidaUI: no Moviment found in scene. Assign playerMov if necessary.");
+        // Try to locate the player's Moviment robustly.
+        if (playerMov == null)
+        {
+            // 1) Try finding by tag (recommended to tag the player GameObject as "Player")
+            var go = GameObject.FindWithTag("Player");
+            if (go != null)
+            {
+                playerMov = go.GetComponent<Moviment>();
+            }
+        }
 
-        UpdateUI();
+        if (playerMov == null)
+        {
+            // 2) Try FindObjectOfType (active objects)
+            playerMov = FindObjectOfType<Moviment>();
+        }
+
+        if (playerMov == null)
+        {
+            // 3) Fallback: include inactive/assets (expensive). Use only if nothing else found.
+            var all = Resources.FindObjectsOfTypeAll<Moviment>();
+            if (all != null && all.Length > 0)
+                playerMov = all[0];
+        }
+
+        if (playerMov == null)
+            Debug.LogWarning("VidaUI: no Moviment found. Assign playerMov in the Inspector to avoid search issues.");
+
+        // initialize UI to current value (force update)
+        UpdateUI(true);
     }
 
     void Update()
     {
         if (playerMov != null)
         {
-            UpdateUI();
+            // update only when health changed
+            int hp = playerMov.CurrentHealth;
+            if (hp != lastHp) UpdateUI(false);
         }
     }
 
-    private void UpdateUI()
+    private void UpdateUI(bool force)
     {
         int hp = playerMov != null ? playerMov.CurrentHealth : 0;
         hp = Mathf.Clamp(hp, 0, heartSprites.Length - 1);
+
+        // If not forced and HP hasn't changed, skip update
+        if (!force && hp == lastHp) return;
+
         if (img != null && heartSprites != null && heartSprites.Length > hp && heartSprites[hp] != null)
         {
             img.sprite = heartSprites[hp];
+            lastHp = hp;
         }
     }
 }
