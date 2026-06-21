@@ -14956,8 +14956,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -621.31, y: 300}
-  m_SizeDelta: {x: 26.3076, y: 26.3076}
+  m_AnchoredPosition: {x: -539.04456, y: 300}
+  m_SizeDelta: {x: 190.8383, y: 26.3076}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2117615619
 MonoBehaviour:
@@ -14979,7 +14979,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6405622230105009482, guid: 9b67ddfd02ae91248adfbe19e458fdc7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b67ddfd02ae91248adfbe19e458fdc7, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -15010,9 +15010,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VidaUI
   heartSprites:
-  - {fileID: -6405622230105009482, guid: 9b67ddfd02ae91248adfbe19e458fdc7, type: 3}
-  - {fileID: 8771046079310816530, guid: d804b0dc822f2b64a840ef36f5ce7cb5, type: 3}
-  - {fileID: 3423393233042432610, guid: 28c3ff7f48ea0cf45b17927c5cd0d29a, type: 3}
+  - {fileID: 21300000, guid: 9b67ddfd02ae91248adfbe19e458fdc7, type: 3}
+  - {fileID: 21300000, guid: 28c3ff7f48ea0cf45b17927c5cd0d29a, type: 3}
+  - {fileID: 21300000, guid: d804b0dc822f2b64a840ef36f5ce7cb5, type: 3}
+  - {fileID: 21300000, guid: 9b67ddfd02ae91248adfbe19e458fdc7, type: 3}
+  playerMov: {fileID: 1135680056}
 --- !u!1 &2119699648
 GameObject:
   m_ObjectHideFlags: 0
