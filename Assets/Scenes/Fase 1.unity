@@ -3744,7 +3744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Moviment
   speed: 5
-  maxHealth: 5
+  maxHealth: 3
   invulnerabilityTime: 1
 --- !u!114 &1135680057
 MonoBehaviour:
@@ -12910,7 +12910,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1322378172
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13143,7 +13143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1363934364
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14932,8 +14932,9 @@ GameObject:
   - component: {fileID: 2117615618}
   - component: {fileID: 2117615620}
   - component: {fileID: 2117615619}
+  - component: {fileID: 2117615621}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Vida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14996,6 +14997,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117615617}
   m_CullTransparentMesh: 1
+--- !u!114 &2117615621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117615617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7042db8f1b9b8a4a97f8fd129f8a383, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VidaUI
+  heartSprites:
+  - {fileID: -6405622230105009482, guid: 9b67ddfd02ae91248adfbe19e458fdc7, type: 3}
+  - {fileID: 8771046079310816530, guid: d804b0dc822f2b64a840ef36f5ce7cb5, type: 3}
+  - {fileID: 3423393233042432610, guid: 28c3ff7f48ea0cf45b17927c5cd0d29a, type: 3}
 --- !u!1 &2119699648
 GameObject:
   m_ObjectHideFlags: 0
@@ -15537,6 +15554,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 319880768}
   - {fileID: 519420032}
   - {fileID: 619394802}
   - {fileID: 40925161}
@@ -15568,7 +15586,6 @@ SceneRoots:
   - {fileID: 2119699650}
   - {fileID: 1586041020}
   - {fileID: 873886700}
-  - {fileID: 319880768}
   - {fileID: 1901295717}
   - {fileID: 1449064294}
   - {fileID: 979601104}

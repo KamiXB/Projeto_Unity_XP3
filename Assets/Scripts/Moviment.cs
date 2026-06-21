@@ -57,6 +57,10 @@ public class Moviment : MonoBehaviour
         baseSpeed = speed;
     }
 
+    // Public read-only accessors for health so UI and other systems can query values
+    public int CurrentHealth => currentHealth;
+    public int MaxHealth => maxHealth;
+
     // Increase the player's max health. If duration > 0 the increase is temporary and will be reverted.
     public void IncreaseMaxHealth(int amount, float duration = 0f)
     {
