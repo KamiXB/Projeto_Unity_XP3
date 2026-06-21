@@ -17,7 +17,8 @@ public class Key : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.CompareTag(playerTag)) return;
+        // If the collider belongs to the player (by tag) OR it has a Moviment component, process collect
+        if (!other.CompareTag(playerTag) && other.GetComponent<Moviment>() == null) return;
 
         var mov = other.GetComponent<Moviment>();
         if (mov != null)
@@ -29,6 +30,13 @@ public class Key : MonoBehaviour
         {
             other.SendMessage("CollectKey", SendMessageOptions.DontRequireReceiver);
             Debug.Log($"Key: sent CollectKey to '{other.gameObject.name}' via SendMessage.");
+        }
+
+        // Notify any ChaveUI in scene so the HUD updates immediately (no need to wait for Update polling)
+        var chaveUi = FindObjectOfType<ChaveUI>();
+        if (chaveUi != null)
+        {
+            chaveUi.ShowKey();
         }
 
         if (destroyOnCollect) Destroy(gameObject);

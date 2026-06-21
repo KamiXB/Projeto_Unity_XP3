@@ -18,6 +18,7 @@ public class Moviment : MonoBehaviour
     private Vector2 movement;
     private Vector2 lastMove;
     private Animator animator;
+    private Shooter shooter;
 
     [Header("Player")]
     [SerializeField] private int maxHealth = 5;
@@ -50,6 +51,7 @@ public class Moviment : MonoBehaviour
     {
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        shooter = GetComponent<Shooter>();
         // Inicializa parâmetros no Animator (opcional)
         SyncAnimatorFacing();
 
@@ -223,13 +225,68 @@ public class Moviment : MonoBehaviour
 
     private void Die()
     {
-        // disable movement and shooter if present
+        // play death animation and schedule respawn to phase 1
         enabled = false;
-        var shooter = GetComponent<Shooter>();
+        if (shooter == null) shooter = GetComponent<Shooter>();
         if (shooter != null) shooter.enabled = false;
 
         if (animator != null) animator.SetTrigger("dead");
         Debug.Log($"Player died: {name}");
+
+        // start respawn sequence (keeps persistent powerups)
+        StartCoroutine(HandleDeathAndRespawn());
+    }
+
+    private System.Collections.IEnumerator HandleDeathAndRespawn()
+    {
+        // short delay to allow death animation/sfx
+        yield return new WaitForSeconds(1f);
+
+        // reset game state: return to phase 1 without reloading scene
+        var stage = FindObjectOfType<StageManager>();
+        if (stage != null)
+        {
+            stage.StartPhase(1);
+            Debug.Log("Moviment: StageManager.StartPhase(1) called for respawn.");
+        }
+
+        // move player to a designated spawn point if present (tagged "PlayerStart")
+        GameObject start = null;
+        try
+        {
+            start = GameObject.FindWithTag("PlayerStart");
+        }
+        catch (UnityEngine.UnityException)
+        {
+            // Tag may not be defined in the project. Fallback to find by name which does not throw.
+            start = GameObject.Find("PlayerStart");
+        }
+
+        if (start != null)
+        {
+            transform.position = start.transform.position;
+        }
+        else
+        {
+            Debug.LogWarning("Moviment: 'PlayerStart' tag not defined or no GameObject named 'PlayerStart' found. Player will remain in current position for respawn.");
+        }
+
+        // restore health and re-enable movement/shooter
+        currentHealth = maxHealth;
+        enabled = true;
+        if (shooter != null) shooter.enabled = true;
+
+        // re-apply persistent powerups
+        if (PlayerPowerups.Instance != null)
+        {
+            PlayerPowerups.Instance.ApplyToMoviment(this);
+            if (shooter != null) PlayerPowerups.Instance.ApplyToShooter(shooter);
+        }
+
+        // brief invulnerability after respawn
+        StartCoroutine(InvulnerabilityFlash());
+
+        yield break;
     }
 
     private System.Collections.IEnumerator InvulnerabilityFlash()
