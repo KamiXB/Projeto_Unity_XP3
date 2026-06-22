@@ -45164,10 +45164,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   playerTag: Player
   loadScene: 1
-  sceneName: Fase 2
+  sceneName: Final
   sceneDelay: 1
   showText: 1
-  uiText: {fileID: 0}
+  uiText: {fileID: 2013886207}
   textToShow: "Voc\xEA venceu!"
   textDuration: 3
   requiresKey: 1
@@ -45216,8 +45216,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 366576405
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
@@ -47644,7 +47644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Moviment
   speed: 5
-  maxHealth: 5
+  maxHealth: 3
   invulnerabilityTime: 1
 --- !u!50 &919240557
 Rigidbody2D:
@@ -49588,7 +49588,7 @@ GameObject:
   - component: {fileID: 1269538510}
   - component: {fileID: 1269538509}
   m_Layer: 5
-  m_Name: Canvas (1)
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
