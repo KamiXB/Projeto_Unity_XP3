@@ -401,7 +401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoBase
   player: {fileID: 712421996}
-  velocidade: 30
+  velocidade: 15
   distanciaDeteccao: 5
   ativo: 1
   afetadoPelaLuz: 0
@@ -1395,7 +1395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoBase
   player: {fileID: 712421996}
-  velocidade: 30
+  velocidade: 15
   distanciaDeteccao: 5
   ativo: 1
   afetadoPelaLuz: 0
@@ -1605,7 +1605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoBase
   player: {fileID: 712421996}
-  velocidade: 30
+  velocidade: 15
   distanciaDeteccao: 5
   ativo: 1
   afetadoPelaLuz: 0
@@ -1815,7 +1815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoBase
   player: {fileID: 712421996}
-  velocidade: 30
+  velocidade: 15
   distanciaDeteccao: 5
   ativo: 1
   afetadoPelaLuz: 0
@@ -2071,7 +2071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoBase
   player: {fileID: 712421996}
-  velocidade: 30
+  velocidade: 15
   distanciaDeteccao: 5
   ativo: 1
   afetadoPelaLuz: 0
@@ -2410,7 +2410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoBase
   player: {fileID: 712421996}
-  velocidade: 30
+  velocidade: 15
   distanciaDeteccao: 5
   ativo: 1
   afetadoPelaLuz: 0
@@ -3798,7 +3798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoBase
   player: {fileID: 712421996}
-  velocidade: 30
+  velocidade: 15
   distanciaDeteccao: 5
   ativo: 1
   afetadoPelaLuz: 0
@@ -10751,7 +10751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoBase
   player: {fileID: 712421996}
-  velocidade: 30
+  velocidade: 15
   distanciaDeteccao: 5
   ativo: 1
   afetadoPelaLuz: 0
@@ -10961,7 +10961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoBase
   player: {fileID: 712421996}
-  velocidade: 30
+  velocidade: 15
   distanciaDeteccao: 5
   ativo: 1
   afetadoPelaLuz: 0
@@ -12285,7 +12285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoBase
   player: {fileID: 712421996}
-  velocidade: 30
+  velocidade: 15
   distanciaDeteccao: 5
   ativo: 1
   afetadoPelaLuz: 0
@@ -14710,7 +14710,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoBase
   player: {fileID: 712421996}
-  velocidade: 30
+  velocidade: 15
   distanciaDeteccao: 5
   ativo: 1
   afetadoPelaLuz: 0
@@ -15078,7 +15078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoBase
   player: {fileID: 712421996}
-  velocidade: 30
+  velocidade: 15
   distanciaDeteccao: 5
   ativo: 1
   afetadoPelaLuz: 0
@@ -16454,7 +16454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoBase
   player: {fileID: 712421996}
-  velocidade: 30
+  velocidade: 15
   distanciaDeteccao: 5
   ativo: 1
   afetadoPelaLuz: 0
@@ -17171,7 +17171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoBase
   player: {fileID: 712421996}
-  velocidade: 30
+  velocidade: 15
   distanciaDeteccao: 5
   ativo: 1
   afetadoPelaLuz: 0
@@ -18013,7 +18013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InimigoBase
   player: {fileID: 712421996}
-  velocidade: 30
+  velocidade: 15
   distanciaDeteccao: 5
   ativo: 1
   afetadoPelaLuz: 0

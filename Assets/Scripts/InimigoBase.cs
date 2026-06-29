@@ -3,6 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class InimigoBase : MonoBehaviour
 {
+    [Header("Referências")]
     public Transform player;
 
     [Header("Stats")]
@@ -15,13 +16,8 @@ public class InimigoBase : MonoBehaviour
     public bool comMedoDaLuz = false;
     public bool paraComLuz = false;
 
-    private bool recebendoLuz = false;
-    private Vector2 posicaoDaLuz;
     [Header("Debug")]
     [SerializeField] private bool logLightEvents = true;
-
-    private Rigidbody2D rb;
-    private Collider2D col;
 
     [Header("Combate")]
     [SerializeField] private int attackDamage = 1;
@@ -32,17 +28,23 @@ public class InimigoBase : MonoBehaviour
 
     [Header("Physics Movement")]
     [SerializeField] private float skinWidth = 0.02f;
-    [Tooltip("Maximum allowed movement (world units) per frame to avoid runaway physics")]
-    [SerializeField] private float maxMovePerFrame = 5f;
 
-    // Animator / facing
+    // Componentes
+    private Rigidbody2D rb;
+    private Collider2D col;
     private Animator animator;
+
+    // Controle de luz
+    private bool recebendoLuz = false;
+    private Vector2 posicaoDaLuz;
+
+    // Controle de animação
     private bool isFacingFront = true;
     private bool isFacingBack = false;
     private bool isFacingLeft = false;
     private bool isFacingRight = false;
     private bool isMoving = false;
-    private Vector2 lastMove = Vector2.down; // default facing (front) as in your Moviment
+    private Vector2 lastMove = Vector2.down;
 
     void Awake()
     {
@@ -51,31 +53,18 @@ public class InimigoBase : MonoBehaviour
         animator = GetComponent<Animator>();
 
         if (rb == null)
-        {
             Debug.LogWarning($"Inimigo '{name}' requires a Rigidbody2D for physics movement.");
-        }
         else
         {
-            // Defensive: ensure enemies aren't affected by gravity and cannot rotate
             rb.gravityScale = 0f;
             rb.freezeRotation = true;
-            // prefer continuous collision detection for fast moving enemies
             rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         }
         if (col == null)
-        {
             Debug.LogWarning($"Inimigo '{name}' should have a Collider2D to interact with walls.");
-        }
 
         SyncAnimatorFacing();
     }
-
-    // Defensive helper: validate vector doesn't contain NaN/Infinity
-    private bool IsValidVector(Vector2 v)
-    {
-        return !(float.IsNaN(v.x) || float.IsNaN(v.y) || float.IsInfinity(v.x) || float.IsInfinity(v.y));
-    }
-
 
     void Update()
     {
@@ -213,10 +202,7 @@ public class InimigoBase : MonoBehaviour
             return;
         }
 
-        if (displacement.magnitude > maxMovePerFrame)
-        {
-            displacement = displacement.normalized * maxMovePerFrame;
-        }
+
         if (rb == null)
         {
             // fallback to transform if no rigidbody
@@ -347,5 +333,10 @@ public class InimigoBase : MonoBehaviour
         if (animator == null) return;
         // use 1 = walking, 0 = idle to match your other code
         animator.SetFloat("speed", isMoving ? 1f : 0f);
+    }
+
+    private bool IsValidVector(Vector2 v)
+    {
+        return !(float.IsNaN(v.x) || float.IsNaN(v.y) || float.IsInfinity(v.x) || float.IsInfinity(v.y));
     }
 }
