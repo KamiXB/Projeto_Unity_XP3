@@ -15,6 +15,12 @@ public class KeySpawner : MonoBehaviour
 
     private GameObject currentKeyInstance;
 
+    [Header("Spawn Options")]
+    [Tooltip("When true, spawned key will use the Forced Scale below instead of the prefab's scale.")]
+    public bool forceScale = false;
+    [Tooltip("Scale to apply to the spawned key when Force Scale is enabled.")]
+    public Vector3 forcedScale = Vector3.one;
+
     void Start()
     {
         SpawnKey();
@@ -33,7 +39,17 @@ public class KeySpawner : MonoBehaviour
 
         if (currentKeyInstance != null) Destroy(currentKeyInstance);
 
-        currentKeyInstance = Instantiate(keyPrefab, spawn.position, Quaternion.identity);
+        // Instantiate without parent to avoid inheriting any transform scale from spawn.
+        currentKeyInstance = Instantiate(keyPrefab, spawn.position, spawn.rotation);
+
+        // Apply scale: either forced (from Inspector) or preserve prefab's local scale
+        if (currentKeyInstance != null)
+        {
+            if (forceScale)
+                currentKeyInstance.transform.localScale = forcedScale;
+            else if (keyPrefab != null)
+                currentKeyInstance.transform.localScale = keyPrefab.transform.localScale;
+        }
     }
 
     // Optional: call to respawn key (e.g., after some event)
